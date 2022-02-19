@@ -3,7 +3,7 @@
 
 Hi!
 
-## 以下地图随意下载，未经授权禁止不可发布至各资源平台!（下载源为microsoft onedrive, 部分地区可能无法访问, 请尝试更改DNS或更换网络环境）
+## 以下地图随意下载，未经授权禁止不可发布至各资源平台!（单击对应地图文件会重定向至Microsoft OneDrive, 部分地区可能无法访问, 请尝试更改DNS或更换网络环境）
 ## 以下地图均为 IXBOB 手撸，期间参与创作的玩家较多，无法一一列出，在此一并表示谢意。
 
 <a href="http://ixbob.github.io/aboutIXBOB.html" target="_blank">关于IXBOB</a>
@@ -26,3 +26,6 @@ Hi!
 
 战桥 <最后上传2020.11> (貌似死于网易不允许使用自定义资源包和行为包)
 <iframe src="https://onedrive.live.com/embed?cid=BC563DD7E78B8181&resid=BC563DD7E78B8181%2111334&authkey=AEoVKHJAjmr39O4" width="165" height="128" frameborder="0" scrolling="no"></iframe>
+
+
+IXBOB的QQ屑群号：746157993
