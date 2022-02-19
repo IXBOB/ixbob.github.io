@@ -6,9 +6,9 @@ Hi!
 ## 以下地图随意下载，未经授权禁止不可发布至各资源平台!（下载源为microsoft onedrive, 部分地区可能无法访问, 请尝试更改DNS或更换网络环境）
 ## 以下地图均为 IXBOB 手撸，期间参与创作的玩家较多，无法一一列出，在此一并表示谢意。
 
-## <========== 正在更新的地图 ==========>
+<a href="http://ixbob.github.io/ceshi.html" target="_blank">关于IXBOB</a>
 
-<a href="http://ixbob.github.io/ceshi.html" target="_blank">Visit W3School!</a>
+## <========== 正在更新的地图 ==========>
 
 起床战争无限火力
 <iframe src="https://onedrive.live.com/embed?cid=BC563DD7E78B8181&resid=BC563DD7E78B8181%2119923&authkey=AG-d6rM4VKViafQ" width="165" height="128" frameborder="0" scrolling="no"></iframe>
