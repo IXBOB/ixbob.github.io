@@ -11,7 +11,7 @@ Hi!
 ## <========== 正在更新的地图 ==========>
 
 起床战争无限火力
-<iframe src="https://onedrive.live.com/embed?cid=BC563DD7E78B8181&resid=BC563DD7E78B8181%2119923&authkey=AG-d6rM4VKViafQ" width="165" height="128" frameborder="0" scrolling="no"></iframe>
+<a href="http://ixbob.github.io/download1.html" target="_blank">下载</a>
 
 敲窗战争（濒临弃坑）
 <iframe src="https://onedrive.live.com/embed?cid=BC563DD7E78B8181&resid=BC563DD7E78B8181%2119629&authkey=ADaLs7s_20A3dT8" width="165" height="128" frameborder="0" scrolling="no"></iframe>
