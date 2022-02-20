@@ -1,7 +1,7 @@
 
 
 
-Hi!访问者
+Hi!访问者 &nbsp; &nbsp; <a href="http://ixbob.github.io/about/aboutIXBOB.html">关于IXBOB</a>
 
 # IXBOB工作室成员
 
@@ -15,7 +15,6 @@ Hi!访问者
 ### 以下地图均为 IXBOB 手撸，期间参与创作的玩家较多，无法一一列出，在此一并表示谢意。
 
 <br/>
-<a href="http://ixbob.github.io/about/aboutIXBOB.html">关于IXBOB</a>
 <br/>
 
 ## 正在更新的地图
