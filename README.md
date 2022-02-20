@@ -19,7 +19,7 @@ Hi!
 ## <========== 弃坑地图 ==========>
 
 休闲小游戏派对 <最后上传2022.1.21>
-<iframe src="https://onedrive.live.com/embed?cid=BC563DD7E78B8181&resid=BC563DD7E78B8181%2119763&authkey=AEZkOPAoohDrxIs" width="165" height="128" frameborder="0" scrolling="no"></iframe>
+<a href="http://ixbob.github.io/download3.html" target="_blank">下载</a>
 
 村民保卫战 <最后上传2021.12.25>
 <iframe src="https://onedrive.live.com/embed?cid=BC563DD7E78B8181&resid=BC563DD7E78B8181%2119560&authkey=ANdrQ_r4vRH5Gdo" width="165" height="128" frameborder="0" scrolling="no"></iframe>
