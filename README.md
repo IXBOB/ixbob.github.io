@@ -36,31 +36,37 @@ Hi!访问者 &nbsp; &nbsp; <a href="http://ixbob.github.io/about/aboutIXBOB.html
 <br/><a href="http://ixbob.github.io/download/download4.html" target="_blank">下载</a>
 <br/>
 
-<br/>
-
 ## 弃坑地图
 警告:  弃坑的地图大部分无法正常运行
 
 战桥 <最后上传2020.11>
 <br/><a href="http://ixbob.github.io/download/download5.html" target="_blank">下载</a>
 <br/>
+
 极寒之夜 <最后上传2021.11.14> <仅1.16可以正常运行>
 <br/><a href="http://ixbob.github.io/download/download6.html" target="_blank">下载</a>
 <br/>
+
 简单的竞技地图 <最后上传2020.10.7>
 <br/><a href="http://ixbob.github.io/download/download7.html" target="_blank">下载</a>
 <br/>
+
 竞技小游戏合集 <最后上传2022.1.2> <新版本疑似区块损坏丢失>
 <br/><a href="http://ixbob.github.io/download/download8.html" target="_blank">下载</a>
 <br/>
+
 简单的PVP地图 <最后上传2022.2.1>
 <br/><a href="http://ixbob.github.io/download/download9.html" target="_blank">下载</a>
 <br/>
+
 职业战争 <最后上传2021.10.30>
 <br/><a href="http://ixbob.github.io/download/download10.html" target="_blank">下载</a>
 <br/>
+
 起床战争 <最后上传2020.10.11> <作者游玩MC的第一张正经地图>
 <br/><a href="http://ixbob.github.io/download/download11.html" target="_blank">下载</a>
 <br/>
+
+
 <br/>IXBOB的QQ屑群号：746157993
 <br/>请求加入工作室？进入IXBOB屑群找到群主私聊即可！
