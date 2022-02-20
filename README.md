@@ -5,10 +5,10 @@ Hi!
 
 
 
-### IXBOB地图下载
+# IXBOB地图下载
 
-# 以下地图随意下载，未经授权禁止不可发布至各资源平台!（单击对应地图文件会重定向至Microsoft OneDrive, 部分地区可能无法访问, 请尝试更改DNS或更换网络环境）
-# 以下地图均为 IXBOB 手撸，期间参与创作的玩家较多，无法一一列出，在此一并表示谢意。
+### 以下地图随意下载，未经授权禁止不可发布至各资源平台!（单击对应地图文件会重定向至Microsoft OneDrive, 部分地区可能无法访问, 请尝试更改DNS或更换网络环境）
+### 以下地图均为 IXBOB 手撸，期间参与创作的玩家较多，无法一一列出，在此一并表示谢意。
 
 <a href="http://ixbob.github.io/aboutIXBOB.html" target="_blank">关于IXBOB</a>
 
