@@ -17,7 +17,7 @@ Hi!
 ## 正在更新的地图
 
 起床战争无限火力
-<br/><a href="http://ixbob.github.io/download/download1.html" target="_blank">下载</a> <a href="http://ixbob.github.io/changelog/map1.html" target="_blank">更新日志</a>
+<br/><a href="http://ixbob.github.io/download/download1.html" target="_blank">下载</a>     <a href="http://ixbob.github.io/changelog/map1.html" target="_blank">更新日志</a>
 <br/>
 
 敲窗战争（濒临弃坑）
