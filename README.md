@@ -7,7 +7,8 @@ Hi!访问者 &nbsp; &nbsp; <a href="http://ixbob.github.io/about/aboutIXBOB.html
 
 <br/>IXBOB
 <br/>F小冷 / MC小冷 (因学业暂时划水)
-<br/>DEDEDE大王GB (未知原因划水中，将于2022.06.01踢出工作室)
+<br/>DEDEDE大王GB (未知原因划水中)
+<br/>ProtonErw（未知原因划水中）
 
 # 基岩版地图下载
 
