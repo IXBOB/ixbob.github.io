@@ -22,7 +22,7 @@ Hi!访问者 &nbsp; &nbsp; <a href="http://ixbob.github.io/about/aboutIXBOB.html
 <br/><a href="http://ixbob.github.io/download/download1.html" target="_blank">下载</a> &nbsp; &nbsp; &nbsp; <a href="http://ixbob.github.io/changelog/map1.html">更新日志</a>
 <br/>
 
-敲窗战争（濒临弃坑）(MCBE 1.16 1.17)
+敲窗大战（濒临弃坑）(MCBE 1.16 1.17)
 <br/><a href="http://ixbob.github.io/download/download2.html" target="_blank">下载</a>
 <br/>
 
