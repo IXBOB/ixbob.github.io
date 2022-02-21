@@ -1,7 +1,7 @@
 
 
 
-Hi!访问者 &nbsp; &nbsp; <a href="http://ixbob.github.io/about/aboutIXBOB.html">关于IXBOB</a>
+Hi！访问者 &nbsp; &nbsp; <a href="http://ixbob.github.io/about/aboutIXBOB.html">关于IXBOB</a>
 
 # IXBOB工作室成员
 
