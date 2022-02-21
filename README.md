@@ -37,7 +37,7 @@ Hi!访问者 &nbsp; &nbsp; <a href="http://ixbob.github.io/about/aboutIXBOB.html
 <br/>
 
 ## 弃坑地图
-警告:  弃坑的地图大部分无法正常运行
+警告:  弃坑地图大部分无法正常运行
 
 战桥 <最后上传2020.11>
 <br/><a href="http://ixbob.github.io/download/download5.html" target="_blank">下载</a>
