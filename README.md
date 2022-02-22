@@ -56,7 +56,7 @@ Hi！访问者 &nbsp; &nbsp; <a href="http://ixbob.github.io/about/aboutIXBOB.ht
 <br/><a href="http://ixbob.github.io/download/download8.html" target="_blank">下载</a>
 <br/>
 
-简单的PVP地图 <最后上传2022.2.1>
+简单的PVP地图 <最后上传2021.2.1>
 <br/><a href="http://ixbob.github.io/download/download9.html" target="_blank">下载</a>
 <br/>
 
