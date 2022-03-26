@@ -6,7 +6,7 @@ Hi！访问者 &nbsp; &nbsp; <a href="http://ixbob.github.io/about/aboutIXBOB.ht
 # IXBOB工作室成员
 
 <br/>IXBOB
-<br/>F小冷 / MC小冷 (复活了)
+<br/>F小冷 / MC小冷 (划水中)
 <br/>DEDEDE大王GB (未知原因划水中)
 <br/>ProtonErw（未知原因划水中）
 
