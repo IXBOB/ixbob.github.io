@@ -20,7 +20,6 @@ Hi！访问者 &nbsp; &nbsp; <a href="http://ixbob.github.io/about/aboutIXBOB.ht
 
 起床战争无限火力 (MCBE 1.16 1.17)
 <br/><a href="http://ixbob.github.io/download/download1.html" target="_blank">下载</a> &nbsp; &nbsp; &nbsp; <a href="http://ixbob.github.io/changelog/map1.html">更新日志</a>
-<a href="http://ixbob.github.io/download/download1.html"><img src="/download_button.png"></a>
 <br/>
 
 敲窗大战（濒临弃坑）(MCBE 1.16 1.17)
