@@ -69,4 +69,3 @@ Hi！访问者 &nbsp; &nbsp; <a href="http://ixbob.github.io/about/aboutIXBOB.ht
 
 
 <br/>IXBOB的QQ屑群号：746157993
-<br/>请求加入工作室？进入IXBOB屑群找到群主私聊即可！
