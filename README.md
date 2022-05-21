@@ -25,6 +25,10 @@ Hi！访问者 &nbsp; &nbsp; <a href="http://ixbob.github.io/about/aboutIXBOB.ht
 <br/><a href="http://ixbob.github.io/download/download2.html" target="_blank">下载</a>
 <br/>
 
+TNT RUN (意大利炮模式(纯属娱乐))
+<br/><a href="https://github.com/IXBOB/IXBOB.github.io/releases/tag/TNT_RUN_v0.1" target="_blank">下载</a>
+<br/>
+
 ## 搁置的地图
 
 休闲小游戏派对 <最后上传2022.1.21>
