@@ -1,35 +1,34 @@
 
 
 
-Hi！访问者 &nbsp; &nbsp; <a href="http://ixbob.github.io/about/aboutIXBOB.html">关于IXBOB</a>
+# IXBOB工作室信息 
 
-# IXBOB工作室成员
+IXBOB工作室成立于2020年，目前工作室内有3人。
+
+### 工作室成员
 
 <br/>IXBOB
-<br/>F小冷 / MC小冷 (划水中)
-<br/>DEDEDE大王GB (未知原因划水中)
+<br/>F小冷 / MC小冷
+<br/>DEDEDE大王GB（划水）
+
+###加入我们
+
+<br/>IXBOB的QQ屑群号：746157993
 
 # 基岩版地图下载
 
-### 𝐢 以下地图均为 IXBOB 手撸，期间参与创作的玩家较多，无法一一列出，在此一并表示谢意。地图未经授权禁止不可发布至各资源平台!
+𝐢 以下地图均为 IXBOB 手撸，在此提供免费下载。
+<br/>I期间参与创作的玩家较多，无法一一列出，在此一并表示谢意。
+<br/>I地图未经授权禁止不可发布至各资源平台!
 
-<br/>
 
-## 正在更新的地图
+### 正在更新的地图
 
 起床战争无限火力 (MCBE 1.16 1.17)
-<br/><a href="http://ixbob.github.io/download/download1.html" target="_blank">下载</a> &nbsp; &nbsp; &nbsp; <a href="http://ixbob.github.io/changelog/map1.html">更新日志</a>
+<br/><a href="http://ixbob.github.io/download/download1.html" target="_blank">下载</a> &nbsp; &nbsp; &nbsp; <a href="http://ixbob.github.io/changelog/map1.html">更新日志</a> &nbsp; &nbsp; &nbsp; <a href="https://x19.gsf.netease.com/obt20210511102131/#/component-details/brief-desc?item_id=4653288702388430547">在中国版查看</a>
 <br/>
 
-敲窗大战（濒临弃坑）(MCBE 1.16 1.17)
-<br/><a href="http://ixbob.github.io/download/download2.html" target="_blank">下载</a>
-<br/>
-
-TNT RUN (意大利炮模式(纯属娱乐))
-<br/><a href="https://github.com/IXBOB/IXBOB.github.io/releases/tag/TNT_RUN_v0.1" target="_blank">下载</a>
-<br/>
-
-## 搁置的地图
+### 搁置的地图
 
 休闲小游戏派对 <最后上传2022.1.21>
 <br/><a href="http://ixbob.github.io/download/download3.html" target="_blank">下载</a>
@@ -39,8 +38,12 @@ TNT RUN (意大利炮模式(纯属娱乐))
 <br/><a href="http://ixbob.github.io/download/download4.html" target="_blank">下载</a>
 <br/>
 
-## 弃坑地图
-警告:  弃坑地图大部分无法正常运行
+敲窗大战 (MCBE 1.16 1.17)
+<br/><a href="http://ixbob.github.io/download/download2.html" target="_blank">下载</a>
+<br/>
+
+### 弃坑地图
+𝐢 此处地图已不再支持，不接受任何bug反馈。
 
 战桥 <最后上传2020.11>
 <br/><a href="http://ixbob.github.io/download/download5.html" target="_blank">下载</a>
@@ -69,6 +72,3 @@ TNT RUN (意大利炮模式(纯属娱乐))
 起床战争 <最后上传2020.10.11> <作者游玩MC的第一张正经地图>
 <br/><a href="http://ixbob.github.io/download/download11.html" target="_blank">下载</a>
 <br/>
-
-
-<br/>IXBOB的QQ屑群号：746157993
