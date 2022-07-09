@@ -29,10 +29,6 @@ IXBOB的QQ屑群号：746157993
 ### 搁置的地图
 𝐢 此处地图因诸多原因暂时停止更新，但在更新计划中。
 
-休闲小游戏派对 <最后上传2022.1.21> （MC BE 1.17）
-<br/><a href="http://ixbob.github.io/download/download3.html" target="_blank">下载</a>
-<br/>
-
 村民保卫战 <最后上传2021.12.25> （MC BE 1.17）
 <br/><a href="http://ixbob.github.io/download/download4.html" target="_blank">下载</a>
 <br/>
@@ -43,6 +39,10 @@ IXBOB的QQ屑群号：746157993
 
 ### 弃坑地图
 𝐢 此处地图已不再支持，不接受任何bug反馈。
+
+休闲小游戏派对 <最后上传2022.1.21> （MC BE 1.17）
+<br/><a href="http://ixbob.github.io/download/download3.html" target="_blank">下载</a>
+<br/>
 
 战桥 <最后上传2020.11> （MC BE 1.14+）
 <br/><a href="http://ixbob.github.io/download/download5.html" target="_blank">下载</a>
