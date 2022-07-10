@@ -27,7 +27,7 @@ IXBOB的QQ屑群号：746157993
 <br/>
 
 经典起床战争(java)
-<br/><a href="[http://ixbob.github.io/download/download1.html](https://github.com/IXBOB/IXBOB.github.io/releases/tag/%E7%BB%8F%E5%85%B8%E8%B5%B7%E5%BA%8A%E6%88%98%E4%BA%89(java)-alpha0.1)" target="_blank">下载</a>
+<br/><a href="https://github.com/IXBOB/IXBOB.github.io/releases/tag/%E7%BB%8F%E5%85%B8%E8%B5%B7%E5%BA%8A%E6%88%98%E4%BA%89(java)-alpha0.1" target="_blank">下载</a>
 <br/>
 
 ### 搁置的地图
