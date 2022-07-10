@@ -26,6 +26,10 @@ IXBOB的QQ屑群号：746157993
 <br/><a href="http://ixbob.github.io/download/download1.html" target="_blank">下载</a> &nbsp; &nbsp; &nbsp; <a href="http://ixbob.github.io/changelog/map1.html" target="_blank">更新日志</a> &nbsp; &nbsp; &nbsp; <a href="https://x19.gsf.netease.com/obt20210511102131/#/component-details/brief-desc?item_id=4653288702388430547">在中国版查看</a>
 <br/>
 
+经典起床战争(java)
+<br/><a href="[http://ixbob.github.io/download/download1.html](https://github.com/IXBOB/IXBOB.github.io/releases/tag/%E7%BB%8F%E5%85%B8%E8%B5%B7%E5%BA%8A%E6%88%98%E4%BA%89(java)-alpha0.1)" target="_blank">下载</a>
+<br/>
+
 ### 搁置的地图
 𝐢 此处地图因诸多原因暂时停止更新，但在更新计划中。
 
