@@ -26,8 +26,8 @@ IXBOB的QQ屑群号：746157993
 <br/><a href="http://ixbob.github.io/download/download1.html" target="_blank">下载</a> &nbsp; &nbsp; &nbsp; <a href="http://ixbob.github.io/changelog/map1.html" target="_blank">更新日志</a> &nbsp; &nbsp; &nbsp; <a href="https://x19.gsf.netease.com/obt20210511102131/#/component-details/brief-desc?item_id=4653288702388430547">在中国版查看</a>
 <br/>
 
-经典起床战争 （MC JE 1.18）
-<br/><a href="https://github.com/IXBOB/IXBOB.github.io/releases/tag/%E7%BB%8F%E5%85%B8%E8%B5%B7%E5%BA%8A%E6%88%98%E4%BA%89(java)-alpha0.1" target="_blank">下载</a>
+极寒之夜 （MC BE 1.18）
+<br/><a href="http://ixbob.github.io/download/download6.html" target="_blank">下载</a>
 <br/>
 
 ### 搁置的地图
@@ -44,16 +44,16 @@ IXBOB的QQ屑群号：746157993
 ### 弃坑地图
 𝐢 此处地图已不再支持，不接受任何bug反馈。
 
+经典起床战争 （MC JE 1.18）
+<br/><a href="https://github.com/IXBOB/IXBOB.github.io/releases/tag/%E7%BB%8F%E5%85%B8%E8%B5%B7%E5%BA%8A%E6%88%98%E4%BA%89(java)-alpha0.1" target="_blank">下载</a>
+<br/>
+
 休闲小游戏派对 <最后上传2022.1.21> （MC BE 1.17）
 <br/><a href="http://ixbob.github.io/download/download3.html" target="_blank">下载</a>
 <br/>
 
 战桥 <最后上传2020.11> （MC BE 1.14+）
 <br/><a href="http://ixbob.github.io/download/download5.html" target="_blank">下载</a>
-<br/>
-
-极寒之夜 <最后上传2021.11.14> （MC BE 1.16）
-<br/><a href="http://ixbob.github.io/download/download6.html" target="_blank">下载</a>
 <br/>
 
 简单的竞技地图 <最后上传2020.10.7> （MC BE 1.14+）
