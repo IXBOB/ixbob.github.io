@@ -1,0 +1,18 @@
+{
+    "values": [
+      "function_tick/function_tick",
+      "game_repeat",
+      "function_tick/gamerule",
+      "ore_spawner",
+      "weapon_upgrade",
+      "team_upgrade",
+      "reset_map",
+      "gamestart_reset_game_settings",
+      "respawn/respawn_degrade",
+      "respawn/respawn_replaceitem",
+      "black_list",
+      "refresh_coin_get",
+      "refresh_xp_get",
+      "refresh.random.desbed.tellraw"
+    ]
+}
