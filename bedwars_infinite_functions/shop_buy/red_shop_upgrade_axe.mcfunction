@@ -1,0 +1,12 @@
+clone 239 5 256 239 5 256 -4 186 51
+execute @e[type=player,x=-4,y=186,z=51,r=3,c=1,scores={"斧等级"=..3}] ~ ~ ~ xp -50L @s[lm=50]
+execute @e[type=player,x=-4,y=186,z=51,r=3,c=1] ~~~ tag @s add up_axe
+execute @e[type=player,x=-4,y=186,z=51,r=3,c=1] ~~~ tellraw @s {"rawtext":[{"text":"§l商店 >> §e§l升级成功 §r§6斧⬆"}]}
+execute @e[type=player,x=-4,y=186,z=51,r=3,c=1] ~~~ playsound note.harp @s
+
+
+
+
+
+
+
