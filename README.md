@@ -23,7 +23,7 @@ IXBOB的QQ屑群号：746157993
 𝐢 此处地图正在持续更新。
 
 起床战争无限火力 （MC BE 1.18）
-<br/><a href="http://ixbob.github.io/download/download1.html" target="_blank">下载</a> &nbsp; &nbsp; &nbsp; <a href="http://ixbob.github.io/changelog/map1.html" target="_blank">更新日志</a> &nbsp; &nbsp; &nbsp; <a href="https://x19.gsf.netease.com/obt20210511102131/#/component-details/brief-desc?item_id=4653288702388430547">在中国版查看</a> &nbsp; &nbsp; &nbsp; <a href="https://github.com/IXBOB/IXBOB.github.io/tree/main/bedwars_infinite_functions">在线查看/修改/贡献资源包</a>
+<br/><a href="http://ixbob.github.io/download/download1.html" target="_blank">下载</a> &nbsp; &nbsp; &nbsp; <a href="http://ixbob.github.io/changelog/map1.html" target="_blank">更新日志</a> &nbsp; &nbsp; &nbsp; <a href="https://x19.gsf.netease.com/obt20210511102131/#/component-details/brief-desc?item_id=4653288702388430547">在中国版查看</a> &nbsp; &nbsp; &nbsp; <a href="https://github.com/IXBOB/IXBOB.github.io/tree/main/bedwars_infinite_functions">在线查看/修改/贡献function</a>
 <br/>
 
 极寒之夜 （MC BE 1.18）
