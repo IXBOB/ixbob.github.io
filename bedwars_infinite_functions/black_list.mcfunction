@@ -1,9 +1,3 @@
-#作者制作地图中遇到的外挂，非必须请勿修改
-#作者封禁的玩家
-scoreboard players set 白浅_CE修改 black_list_time -1
-scoreboard players set 白浅_CE修改 black_list_cheat 1
-scoreboard players set 白浅_CE修改 black_list 1
-scoreboard players set 白浅_CE修改 banned_by_IXBOB 1
 #重复减少封禁时间
 execute @e[type=armor_stand,scores={function_tick=20}] ~~~ scoreboard players add @e[type=player,scores={black_list_time=1..}] black_list_time -1
 #封禁规则
