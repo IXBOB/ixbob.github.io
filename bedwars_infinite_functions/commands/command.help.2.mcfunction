@@ -1,0 +1,2 @@
+execute @a[tag=op,tag=command.help.2] ~~~ tellraw @s { "rawtext" : [ { "text" : "§a§l显示指令帮助， 当前第 2 / 2 页\n输入 /tag @s add command.help.<数字> 来前往指定页面\n§r§f当前页面什么都没有"} ] }
+execute @a[tag=op,tag=command.help.2] ~~~ tag @s remove command.help.2
