@@ -118,7 +118,6 @@ execute @e[type=armor_stand,scores={gameSTART=1},name=main] ~~~ fill 5 185 -52 -
 #删除出界的箭
 execute @e[type=armor_stand,name=main,scores={gameSTART=1..2}] ~~~ execute @e[type=arrow] ~ ~ ~ detect ~ 0 ~ deny 0 kill @s
 #删除出界的末影珍珠
-execute @e[type=armor_stand,name=main,scores={starting=1,"开始倒计时"=0}] ~~~ scoreboard players set @e[type=armor_stand,name=main,scores={gameSTART=0}] gameSTART 1
 execute @e[type=armor_stand,scores={gameSTART=1}] ~~~ execute @e[type=ender_pearl] ~~~ detect ~ 0 ~ deny 0 kill @s
 #红队队伍actionbar
 execute @e[type=armor_stand,name=main,scores={gameSTART=1}] ~~~ execute @a[scores={"分队"=1},x=-63,y=174,z=-63,dx=126,dy=29,dz=126] ~~~ titleraw @s actionbar { "rawtext" : [{ "text" : "§f队伍：  §c§l红队\n§r§f队伍成员：  §c§l" },{ "selector" :  "@a[scores={分队=1,存活=1}]"},{ "text" : "\n§r§7游戏时间:  " },{ "score" : { "name" : "@s" , "objective" : "game.time.min.2"}},{ "score" : { "name" : "@s" , "objective" : "game.time.min.1"}},{ "text" : " : " },{ "score" : { "name" : "@s" , "objective" : "game.time.sec.2"}},{ "score" : { "name" : "@s" , "objective" : "game.time.sec.1"}},{"translate":"%%5%%6%%7%%8","with":{"rawtext":[{"selector":"@s[tag=near_diamond]"},{"selector":"@s[tag=near_diamond]"},{"selector":"@s[tag=near_diamond]"},{"selector":"@s[tag=near_diamond]"},{"text":"\n§r§e"},{ "score" : { "name" : "@s" , "objective" : "钻石等级"}},{"text":" 级钻石刷新点     钻石刷新 "},{ "score" : { "name" : "@s" , "objective" : "钻石1time"}}]}},{"translate":"%%5%%6%%7%%8","with":{"rawtext":[{"selector":"@s[tag=near_emerald]"},{"selector":"@s[tag=near_emerald]"},{"selector":"@s[tag=near_emerald]"},{"selector":"@s[tag=near_emerald]"},{"text":"\n§r§e"},{ "score" : { "name" : "@s" , "objective" : "绿宝石等级"}},{"text":" 级绿宝石刷新点     绿宝石刷新 "},{ "score" : { "name" : "@s" , "objective" : "绿宝石time"}},{"text":"\n§r§7本局获得灵魂： "},{"score":{"name":"@s","objective":"当局灵魂数"}}]}}]}
@@ -278,6 +277,7 @@ execute @e[type=armor_stand,name=main,scores={gameSTART=0}] ~~~ tag @a remove te
 execute @e[type=armor_stand,name=main,scores={gameSTART=0}] ~~~ tag @a remove team2
 #检测有人正在重生执行相关指令
 execute @e[type=player,x=-72,y=5,z=-67,r=20] ~~~ execute @e[type=armor_stand,name=main,scores={gameSTART=1..2}] ~~~ function respawn_main
+execute @e[type=armor_stand,name=main,scores={gameSTART=0}] ~~~ tp @a[x=-72,y=6,z=-67,r=20] -200 200 -200
 #replaceitem红队皮革护甲
 execute @a[x=-63,y=176,z=-63,dx=126,dy=28,dz=126,scores={"分队"=1,"防具等级"=1,"存活"=1}] ~~~ execute @e[type=armor_stand,scores={gameSTART=1},name=main] ~~~ function replaceitem.red.leather.armor
 #replaceitem蓝队皮革护甲
