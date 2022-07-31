@@ -276,12 +276,12 @@ execute @e[type=armor_stand,name=main,scores={gameSTART=1..2}] ~~~ tag @a[scores
 execute @e[type=armor_stand,name=main,scores={gameSTART=0}] ~~~ tag @a remove team1
 execute @e[type=armor_stand,name=main,scores={gameSTART=0}] ~~~ tag @a remove team2
 #检测有人正在重生执行相关指令
-execute @e[type=player,x=-72,y=5,z=-67,r=20] ~~~ execute @e[type=armor_stand,name=main,scores={gameSTART=1..2}] ~~~ function respawn_main
+execute @e[type=player,x=-72,y=5,z=-67,r=20,c=1] ~~~ execute @e[type=armor_stand,name=main,scores={gameSTART=1..2}] ~~~ function respawn/respawn_main
 execute @e[type=armor_stand,name=main,scores={gameSTART=0}] ~~~ tp @a[x=-72,y=6,z=-67,r=20] -200 200 -200
 #replaceitem红队皮革护甲
-execute @a[x=-63,y=176,z=-63,dx=126,dy=28,dz=126,scores={"分队"=1,"防具等级"=1,"存活"=1}] ~~~ execute @e[type=armor_stand,scores={gameSTART=1},name=main] ~~~ function replaceitem.red.leather.armor
+execute @e[type=armor_stand,scores={gameSTART=1},name=main] ~~~ execute @a[x=-63,y=176,z=-63,dx=126,dy=28,dz=126,scores={"分队"=1,"防具等级"=1,"存活"=1}] ~~~ function replaceitem.red.leather.armor
 #replaceitem蓝队皮革护甲
-execute @a[x=-63,y=176,z=-63,dx=126,dy=28,dz=126,scores={"分队"=2,"防具等级"=1,"存活"=1}] ~~~ execute @e[type=armor_stand,scores={gameSTART=1},name=main] ~~~ function replaceitem.blue.leather.armor
+ execute @e[type=armor_stand,scores={gameSTART=1},name=main] ~~~ execute @a[x=-63,y=176,z=-63,dx=126,dy=28,dz=126,scores={"分队"=2,"防具等级"=1,"存活"=1}] ~~~ function replaceitem.blue.leather.armor
 #大厅按钮选项相关================
 #复制告示牌游戏未开始
 execute @e[type=armor_stand,scores={gameSTART=0}] ~~~ clone 293 4 296 293 4 296 -200 200 -204
@@ -466,8 +466,9 @@ execute @e[type=armor_stand,scores={gameSTART=1..2,"游戏地图"=3,function_tic
 #防止地图关键区域被破坏相关结束================
 #游戏区域tag+degrade
 execute @e[type=armor_stand,scores={gameSTART=1},name=main] ~~~ execute @a[scores={"分队"=1..2},x=-63,y=171,z=-63,dx=126,dy=33,dz=126] ~~~ tag @s add degrade
-#传送结束时有分队值的玩家到大厅
-execute @e[type=armor_stand,scores={gameSTART=0}] ~~~ tp @a[scores={"分队"=1..2}] -200 200 -200
+#传送结束时有分队值的玩家到大厅并清空背包
+execute @e[type=armor_stand,scores={gameSTART=0}] ~~~ tp @a[scores={"分队"=1..2},tag=!insider] -200 200 -200
+execute @e[type=armor_stand,scores={gameSTART=0}] ~~~ clear @a[scores={"分队"=1..2},tag=!insider]
 execute @e[type=armor_stand,scores={gameSTART=0}] ~~~ scoreboard players set @a[scores={"分队"=1..2}] "分队" 0
 #检测蓝队床情况#蓝队√-游戏显示
 execute @e[type=armor_stand,scores={gameSTART=1,"蓝床存活"=1}] ~~~ scoreboard players set "§b蓝队 §a✔" "游戏显示" -5
