@@ -21,3 +21,8 @@ execute @e[type=armor_stand,name=main,scores={gameSTART=1}] ~~~ execute @e[type=
 execute @e[type=armor_stand,scores={gameSTART=2}] ~~~ execute @e[type=player,x=-67,y=5,z=-67,r=3,scores={"分队"=1}] ~~~ tp @s 0 186 53 facing 0 182 0
 #游戏结束传送复活中蓝队到基地
 execute @e[type=armor_stand,scores={gameSTART=2}] ~~~ execute @e[type=player,x=-67,y=5,z=-67,r=3,scores={"分队"=2}] ~~~ tp @s 0 186 -53 facing 0 182 0
+#超时传送回大厅
+tag @a[scores={"重生时间"=..-100}] add respawn_error
+scoreboard players set @a[tag=respawn_error] "重生时间" 100
+tp @a[tag=respawn_error] -200 200 -200
+tag @a remove respawn_error
