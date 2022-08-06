@@ -44,7 +44,7 @@ execute @e[type=armor_stand,name=main,scores={starting=1,"开始倒计时"=0}] ~
 #重置地图
 execute @e[type=armor_stand,name=main,scores={gameSTART=0}] ~~~ function reset_map
 #物品白名单
-execute @e[type=armor_stand,name=main,scores={gameSTART=1..2}] ~~~ kill @e[type=item,ry=0,rym=0,rx=0,rxm=0,name=!橡木木板,name=!红色羊毛,name=!蓝色羊毛,name=!末地石,name=!红色玻璃,name=!蓝色玻璃,name=!炸药,name=!TNT,name=!铁锭,name=!金锭,name=!绿宝石,name=!钻石,name=!末影珍珠,name=!黑曜石,name=!§r§d灵魂,name=!附魔之瓶]
+execute @e[type=armor_stand,name=main,scores={gameSTART=1..2}] ~~~ kill @e[type=item,ry=0,rym=0,rx=0,rxm=0,name=!橡木木板,name=!红色羊毛,name=!蓝色羊毛,name=!末地石,name=!红色玻璃,name=!蓝色玻璃,name=!炸药,name=!TNT,name=!铁锭,name=!金锭,name=!绿宝石,name=!钻石,name=!末影珍珠,name=!黑曜石,name=!附魔之瓶]
 #红床存在将红非挂机玩家存活设1
 execute @e[type=armor_stand,name=main,scores={gameSTART=1,"红床存活"=1}] ~~~ scoreboard players set @a[scores={"分队"=1}] "存活" 0
 execute @e[type=armor_stand,name=main,scores={gameSTART=1,"红床存活"=1}] ~~~ scoreboard players set @e[type=player,scores={"分队"=1}] "存活" 1
@@ -100,7 +100,6 @@ execute @e[type=armor_stand,name=main,scores={gameSTART=2}] ~~~ gamemode 2 @a[ta
 execute @e[type=armor_stand,name=main,scores={gameSTART=0}] ~~~ gamemode 2 @a[tag=!insider]
 #删除物品栏多余/禁止物品
 execute @e[type=armor_stand,name=main,scores={gameSTART=1..2}] ~~~ clear @a snow
-execute @e[type=armor_stand,name=main,scores={gameSTART=1..2}] ~~~ clear @a glass_bottle
 execute @e[type=armor_stand,name=main,scores={gameSTART=1..2}] ~~~ clear @a carpet
 execute @e[type=armor_stand,name=main,scores={gameSTART=1..2}] ~~~ clear @a crafting_table
 execute @e[type=armor_stand,name=main,scores={gameSTART=1..2}] ~~~ clear @a stick
@@ -120,9 +119,9 @@ execute @e[type=armor_stand,name=main,scores={gameSTART=1..2}] ~~~ execute @e[ty
 #删除出界的末影珍珠
 execute @e[type=armor_stand,scores={gameSTART=1}] ~~~ execute @e[type=ender_pearl] ~~~ detect ~ 0 ~ deny 0 kill @s
 #红队队伍actionbar
-execute @e[type=armor_stand,name=main,scores={gameSTART=1}] ~~~ execute @a[scores={"分队"=1},x=-63,y=174,z=-63,dx=126,dy=29,dz=126] ~~~ titleraw @s actionbar { "rawtext" : [{ "text" : "§f队伍：  §c§l红队\n§r§f队伍成员：  §c§l" },{ "selector" :  "@a[scores={分队=1,存活=1}]"},{ "text" : "\n§r§7游戏时间:  " },{ "score" : { "name" : "@s" , "objective" : "game.time.min.2"}},{ "score" : { "name" : "@s" , "objective" : "game.time.min.1"}},{ "text" : " : " },{ "score" : { "name" : "@s" , "objective" : "game.time.sec.2"}},{ "score" : { "name" : "@s" , "objective" : "game.time.sec.1"}},{"translate":"%%5%%6%%7%%8","with":{"rawtext":[{"selector":"@s[tag=near_diamond]"},{"selector":"@s[tag=near_diamond]"},{"selector":"@s[tag=near_diamond]"},{"selector":"@s[tag=near_diamond]"},{"text":"\n§r§e"},{ "score" : { "name" : "@s" , "objective" : "钻石等级"}},{"text":" 级钻石刷新点     钻石刷新 "},{ "score" : { "name" : "@s" , "objective" : "钻石1time"}}]}},{"translate":"%%5%%6%%7%%8","with":{"rawtext":[{"selector":"@s[tag=near_emerald]"},{"selector":"@s[tag=near_emerald]"},{"selector":"@s[tag=near_emerald]"},{"selector":"@s[tag=near_emerald]"},{"text":"\n§r§e"},{ "score" : { "name" : "@s" , "objective" : "绿宝石等级"}},{"text":" 级绿宝石刷新点     绿宝石刷新 "},{ "score" : { "name" : "@s" , "objective" : "绿宝石time"}},{"text":"\n§r§7本局获得灵魂： "},{"score":{"name":"@s","objective":"当局灵魂数"}}]}}]}
+execute @e[type=armor_stand,name=main,scores={gameSTART=1}] ~~~ execute @a[scores={"分队"=1},x=-63,y=174,z=-63,dx=126,dy=29,dz=126] ~~~ titleraw @s actionbar { "rawtext" : [{ "text" : "§f队伍：  §c§l红队\n§r§f队伍成员：  §c§l" },{ "selector" :  "@a[scores={分队=1,存活=1}]"},{ "text" : "\n§r§7游戏时间:  " },{ "score" : { "name" : "@s" , "objective" : "game.time.min.2"}},{ "score" : { "name" : "@s" , "objective" : "game.time.min.1"}},{ "text" : " : " },{ "score" : { "name" : "@s" , "objective" : "game.time.sec.2"}},{ "score" : { "name" : "@s" , "objective" : "game.time.sec.1"}},{"translate":"%%5%%6%%7%%8","with":{"rawtext":[{"selector":"@s[tag=near_diamond]"},{"selector":"@s[tag=near_diamond]"},{"selector":"@s[tag=near_diamond]"},{"selector":"@s[tag=near_diamond]"},{"text":"\n§r§e"},{ "score" : { "name" : "@s" , "objective" : "钻石等级"}},{"text":" 级钻石刷新点     钻石刷新 "},{ "score" : { "name" : "@s" , "objective" : "钻石1time"}}]}},{"translate":"%%5%%6%%7%%8","with":{"rawtext":[{"selector":"@s[tag=near_emerald]"},{"selector":"@s[tag=near_emerald]"},{"selector":"@s[tag=near_emerald]"},{"selector":"@s[tag=near_emerald]"},{"text":"\n§r§e"},{ "score" : { "name" : "@s" , "objective" : "绿宝石等级"}},{"text":" 级绿宝石刷新点     绿宝石刷新 "},{ "score" : { "name" : "@s" , "objective" : "绿宝石time"}},{"text":"\n§r§7击杀数： "},{"score":{"name":"@s","objective":"击杀数"}}]}}]}
 #蓝队队伍actionbar
-execute @e[type=armor_stand,name=main,scores={gameSTART=1}] ~~~ execute @a[scores={"分队"=2},x=-63,y=174,z=-63,dx=126,dy=29,dz=126] ~~~ titleraw @s actionbar { "rawtext" : [{ "text" : "§f队伍：  §b§l蓝队\n§r§f队伍成员：  §b§l" },{ "selector" :  "@a[scores={分队=2,存活=1}]"},{ "text" : "\n§r§7游戏时间:  " },{ "score" : { "name" : "@s" , "objective" : "game.time.min.2"}},{ "score" : { "name" : "@s" , "objective" : "game.time.min.1"}},{ "text" : " : " },{ "score" : { "name" : "@s" , "objective" : "game.time.sec.2"}},{ "score" : { "name" : "@s" , "objective" : "game.time.sec.1"}},{"translate":"%%5%%6%%7%%8","with":{"rawtext":[{"selector":"@s[tag=near_diamond]"},{"selector":"@s[tag=near_diamond]"},{"selector":"@s[tag=near_diamond]"},{"selector":"@s[tag=near_diamond]"},{"text":"\n§r§e"},{ "score" : { "name" : "@s" , "objective" : "钻石等级"}},{"text":" 级钻石刷新点     钻石刷新 "},{ "score" : { "name" : "@s" , "objective" : "钻石1time"}}]}},{"translate":"%%5%%6%%7%%8","with":{"rawtext":[{"selector":"@s[tag=near_emerald]"},{"selector":"@s[tag=near_emerald]"},{"selector":"@s[tag=near_emerald]"},{"selector":"@s[tag=near_emerald]"},{"text":"\n§r§e"},{ "score" : { "name" : "@s" , "objective" : "绿宝石等级"}},{"text":" 级绿宝石刷新点     绿宝石刷新 "},{ "score" : { "name" : "@s" , "objective" : "绿宝石time"}},{"text":"\n§r§7本局获得灵魂： "},{"score":{"name":"@s","objective":"当局灵魂数"}}]}}]}
+execute @e[type=armor_stand,name=main,scores={gameSTART=1}] ~~~ execute @a[scores={"分队"=2},x=-63,y=174,z=-63,dx=126,dy=29,dz=126] ~~~ titleraw @s actionbar { "rawtext" : [{ "text" : "§f队伍：  §b§l蓝队\n§r§f队伍成员：  §b§l" },{ "selector" :  "@a[scores={分队=2,存活=1}]"},{ "text" : "\n§r§7游戏时间:  " },{ "score" : { "name" : "@s" , "objective" : "game.time.min.2"}},{ "score" : { "name" : "@s" , "objective" : "game.time.min.1"}},{ "text" : " : " },{ "score" : { "name" : "@s" , "objective" : "game.time.sec.2"}},{ "score" : { "name" : "@s" , "objective" : "game.time.sec.1"}},{"translate":"%%5%%6%%7%%8","with":{"rawtext":[{"selector":"@s[tag=near_diamond]"},{"selector":"@s[tag=near_diamond]"},{"selector":"@s[tag=near_diamond]"},{"selector":"@s[tag=near_diamond]"},{"text":"\n§r§e"},{ "score" : { "name" : "@s" , "objective" : "钻石等级"}},{"text":" 级钻石刷新点     钻石刷新 "},{ "score" : { "name" : "@s" , "objective" : "钻石1time"}}]}},{"translate":"%%5%%6%%7%%8","with":{"rawtext":[{"selector":"@s[tag=near_emerald]"},{"selector":"@s[tag=near_emerald]"},{"selector":"@s[tag=near_emerald]"},{"selector":"@s[tag=near_emerald]"},{"text":"\n§r§e"},{ "score" : { "name" : "@s" , "objective" : "绿宝石等级"}},{"text":" 级绿宝石刷新点     绿宝石刷新 "},{ "score" : { "name" : "@s" , "objective" : "绿宝石time"}},{"text":"\n§r§7击杀数： "},{"score":{"name":"@s","objective":"击杀数"}}]}}]}
 #淘汰后玩家actionbar
 execute @e[type=armor_stand,name=main,scores={gameSTART=1}] ~~~ execute @a[x=-63,y=205,z=-63,dx=126,dy=10,dz=126,rx=90,rxm=-89] ~~~ detect ~ ~-1 ~ barrier 0 titleraw @s actionbar { "rawtext" : [{ "text" : "§f§l>> 您正在观战 <<" },{ "text" : "\n§r§f游戏时间:  " },{ "score" : { "name" : "@s" , "objective" : "game.time.min.2"}},{ "score" : { "name" : "@s" , "objective" : "game.time.min.1"}},{ "text" : " : " },{ "score" : { "name" : "@s" , "objective" : "game.time.sec.2"}},{ "score" : { "name" : "@s" , "objective" : "game.time.sec.1"}},{ "text" : "\n§r§7§l红队剩余玩家： " },{"selector":"@a[scores={分队=1,存活=1}]"},{ "text" : "\n§r§7§l蓝队剩余玩家： " },{"selector":"@a[scores={分队=2,存活=1}]"},{ "text" : "\n§f>> 抬头返回大厅 <<" } ] }
 execute @e[type=armor_stand,name=main,scores={gameSTART=1}] ~~~ execute @a[x=-63,y=205,z=-63,dx=126,dy=10,dz=126,rx=90,rxm=-89,scores={"分队"=1..2,"存活"=0}] ~~~ detect ~ ~-1 ~ barrier 0 titleraw @s actionbar { "rawtext" : [{ "text" : "§7§l>> 您已被淘汰  正在观战 <<" },{ "text" : "\n§r§f游戏时间:  " },{ "score" : { "name" : "@s" , "objective" : "game.time.min.2"}},{ "score" : { "name" : "@s" , "objective" : "game.time.min.1"}},{ "text" : " : " },{ "score" : { "name" : "@s" , "objective" : "game.time.sec.2"}},{ "score" : { "name" : "@s" , "objective" : "game.time.sec.1"}},{"translate":"%%3%%4","with":{"rawtext":[{"selector":"@s[scores={分队=1,存活=0}]"},{"selector":"@s[scores={分队=1,存活=0}]"},{"text":"\n§r§f您的队伍： §7§l红队  §f剩余成员： §c"},{"selector":"@a[scores={分队=1,存活=1}]"},{"text":"\n§r§f您的队伍： §7§l蓝队  §f剩余成员： §b"},{"selector":"@a[scores={分队=2,存活=1}]"}]}},{ "text" : "\n§7>> 抬头返回大厅 <<" } ] }
@@ -166,7 +165,7 @@ execute @e[type=armor_stand,scores={gameSTART=1..2}] ~~~ effect @a[x=-218,y=193,
 #游戏开始后还原被破坏的红队伍箱
 execute @e[type=armor_stand,scores={gameSTART=1..2}] ~~~ detect 0 185 58 air 0 clone 288 7 260 288 7 260 0 185 58
 #游戏开始后还原被破坏的蓝队伍箱
-execute @e[type=armor_stand,scores={gameSTART=1..2}] ~~~ detect 0 185 58 air 0 clone 288 7 259 288 7 259 0 185 -58
+execute @e[type=armor_stand,scores={gameSTART=1..2}] ~~~ detect 0 185 -58 air 0 clone 288 7 259 288 7 259 0 185 -58
 #<红> 检测有敌人可以破坏床
 execute @e[type=armor_stand,name=main,scores={gameSTART=1}] ~~~ scoreboard players set @s "红床有敌" 0
 execute @e[type=armor_stand,name=main,scores={gameSTART=1}] ~~~ execute @e[type=player,scores={"分队"=2},x=0,y=185,z=46,r=5] ~~~ scoreboard players set @e[type=armor_stand,name=main,scores={gameSTART=1}] "红床有敌" 1
@@ -215,7 +214,7 @@ execute @e[type=armor_stand,scores={gameSTART=1,game.time.sec.2=6..}] ~~~ scoreb
 execute @e[type=armor_stand,scores={gameSTART=1,game.time.min.1=10..}] ~~~ scoreboard players add @s game.time.min.2 1
 execute @e[type=armor_stand,scores={gameSTART=1,game.time.min.1=10..}] ~~~ scoreboard players set @s game.time.min.1 0
 #初始化新玩家
-scoreboard players set @a[tag=!registered] "总灵魂数" 0
+scoreboard players set @a[tag=!registered] "总击杀数" 0
 scoreboard players set @a[tag=!registered] "胜场数" 0
 scoreboard players set @a[tag=!registered] "等级" 0
 scoreboard players set @a[tag=!registered] "等级经验" 0
@@ -302,7 +301,7 @@ execute @e[type=armor_stand,scores={gameSTART=0,reseting=0,starting=0},tag=!rese
 execute @e[type=armor_stand,scores={gameSTART=0,reseting=0,starting=0},tag=!reset_OK] ~~~ detect -203 201 -196 polished_blackstone_button 9 execute @e[type=player,x=-203,y=201,z=-196,r=3,c=1] ~~~ execute @s[tag=op] ~~~ scoreboard players add @e[type=armor_stand,name=main] "地图选择" 1
 execute @e[type=armor_stand,scores={gameSTART=0,reseting=0,starting=0},tag=!reset_OK] ~~~ detect -203 201 -196 polished_blackstone_button 9 setblock -203 201 -196 polished_blackstone_button 1
 #检测地图选择超过设定范围设为0
-execute @e[type=armor_stand,name=main,scores={gameSTART0=0,"地图选择"=4..}] ~~~ scoreboard players set @s "地图选择" 0
+execute @e[type=armor_stand,name=main,scores={gameSTART=0,"地图选择"=4..}] ~~~ scoreboard players set @s "地图选择" 0
 #游戏重置前复制地图选择告示牌
 execute @e[type=armor_stand,name=main,scores={gameSTART=0,"地图选择"=0,starting=0,reseting=0},tag=!reset_OK] ~~~ clone 293 4 294 293 4 294 -203 200 -197
 execute @e[type=armor_stand,name=main,scores={gameSTART=0,"地图选择"=1,starting=0,reseting=0},tag=!reset_OK] ~~~ clone 293 5 294 293 5 294 -203 200 -197
@@ -348,13 +347,13 @@ execute @e[type=armor_stand,name=main,scores={gameSTART=0},tag=set.start.players
 execute @e[type=armor_stand,name=main,scores={gameSTART=0},tag=set.start.players.6] ~~~ execute @a[tag=op,tag=set.start.players.6] ~~~ tellraw @s { "rawtext" : [ { "text" : "§f§l起床战争 · 无限火力 >> §r§c当前开始游戏最少需要玩家已被设置为 6 名" } ] }
 execute @e[type=armor_stand,name=main,scores={gameSTART=0},tag=set.start.players.7] ~~~ execute @a[tag=op,tag=set.start.players.7] ~~~ tellraw @s { "rawtext" : [ { "text" : "§f§l起床战争 · 无限火力 >> §r§c当前开始游戏最少需要玩家已被设置为 7 名" } ] }
 execute @e[type=armor_stand,name=main,scores={gameSTART=0},tag=set.start.players.8] ~~~ execute @a[tag=op,tag=set.start.players.8] ~~~ tellraw @s { "rawtext" : [ { "text" : "§f§l起床战争 · 无限火力 >> §r§c当前开始游戏最少需要玩家已被设置为 8 名" } ] }
-execute @e[type=armor_stand,name=main,scores={gameSTART=!0}] ~~~ execute @a[tag=op,tag=set.start.players.2] ~~~ tellraw @s { "rawtext" : [ { "text" : "§f§l起床战争 · 无限火力 >> §r§c此时无法修改始游戏最少需要玩家数" } ] }
-execute @e[type=armor_stand,name=main,scores={gameSTART=!0}] ~~~ execute @a[tag=op,tag=set.start.players.3] ~~~ tellraw @s { "rawtext" : [ { "text" : "§f§l起床战争 · 无限火力 >> §r§c此时无法修改始游戏最少需要玩家数" } ] }
-execute @e[type=armor_stand,name=main,scores={gameSTART=!0}] ~~~ execute @a[tag=op,tag=set.start.players.4] ~~~ tellraw @s { "rawtext" : [ { "text" : "§f§l起床战争 · 无限火力 >> §r§c此时无法修改始游戏最少需要玩家数" } ] }
-execute @e[type=armor_stand,name=main,scores={gameSTART=!0}] ~~~ execute @a[tag=op,tag=set.start.players.5] ~~~ tellraw @s { "rawtext" : [ { "text" : "§f§l起床战争 · 无限火力 >> §r§c此时无法修改始游戏最少需要玩家数" } ] }
-execute @e[type=armor_stand,name=main,scores={gameSTART=!0}] ~~~ execute @a[tag=op,tag=set.start.players.6] ~~~ tellraw @s { "rawtext" : [ { "text" : "§f§l起床战争 · 无限火力 >> §r§c此时无法修改始游戏最少需要玩家数" } ] }
-execute @e[type=armor_stand,name=main,scores={gameSTART=!0}] ~~~ execute @a[tag=op,tag=set.start.players.7] ~~~ tellraw @s { "rawtext" : [ { "text" : "§f§l起床战争 · 无限火力 >> §r§c此时无法修改始游戏最少需要玩家数" } ] }
-execute @e[type=armor_stand,name=main,scores={gameSTART=!0}] ~~~ execute @a[tag=op,tag=set.start.players.8] ~~~ tellraw @s { "rawtext" : [ { "text" : "§f§l起床战争 · 无限火力 >> §r§c此时无法修改始游戏最少需要玩家数" } ] }
+execute @e[type=armor_stand,name=main,scores={gameSTART=!0}] ~~~ execute @a[tag=op,tag=set.start.players.2] ~~~ tellraw @s { "rawtext" : [ { "text" : "§f§l起床战争 · 无限火力 >> §r§c此时无法修改开始游戏最少需要玩家数" } ] }
+execute @e[type=armor_stand,name=main,scores={gameSTART=!0}] ~~~ execute @a[tag=op,tag=set.start.players.3] ~~~ tellraw @s { "rawtext" : [ { "text" : "§f§l起床战争 · 无限火力 >> §r§c此时无法修改开始游戏最少需要玩家数" } ] }
+execute @e[type=armor_stand,name=main,scores={gameSTART=!0}] ~~~ execute @a[tag=op,tag=set.start.players.4] ~~~ tellraw @s { "rawtext" : [ { "text" : "§f§l起床战争 · 无限火力 >> §r§c此时无法修改开始游戏最少需要玩家数" } ] }
+execute @e[type=armor_stand,name=main,scores={gameSTART=!0}] ~~~ execute @a[tag=op,tag=set.start.players.5] ~~~ tellraw @s { "rawtext" : [ { "text" : "§f§l起床战争 · 无限火力 >> §r§c此时无法修改开始游戏最少需要玩家数" } ] }
+execute @e[type=armor_stand,name=main,scores={gameSTART=!0}] ~~~ execute @a[tag=op,tag=set.start.players.6] ~~~ tellraw @s { "rawtext" : [ { "text" : "§f§l起床战争 · 无限火力 >> §r§c此时无法修改开始游戏最少需要玩家数" } ] }
+execute @e[type=armor_stand,name=main,scores={gameSTART=!0}] ~~~ execute @a[tag=op,tag=set.start.players.7] ~~~ tellraw @s { "rawtext" : [ { "text" : "§f§l起床战争 · 无限火力 >> §r§c此时无法修改开始游戏最少需要玩家数" } ] }
+execute @e[type=armor_stand,name=main,scores={gameSTART=!0}] ~~~ execute @a[tag=op,tag=set.start.players.8] ~~~ tellraw @s { "rawtext" : [ { "text" : "§f§l起床战争 · 无限火力 >> §r§c此时无法修改开始游戏最少需要玩家数" } ] }
 #删除非tag=op玩家的tag
 execute @a[tag=!op,tag=set.start.players.2] ~~~ tag @s remove set.start.players.2
 execute @a[tag=!op,tag=set.start.players.3] ~~~ tag @s remove set.start.players.3
@@ -414,7 +413,7 @@ execute @e[type=armor_stand,scores={gameSTART=0},tag=set.start.players.6,tag=!se
 execute @e[type=armor_stand,scores={gameSTART=0},tag=set.start.players.7,tag=!set.players.7.tellrawed] ~~~ function commands/test_tag/set.players.7.tellrawed
 execute @e[type=armor_stand,scores={gameSTART=0},tag=set.start.players.8,tag=!set.players.8.tellrawed] ~~~ function commands/test_tag/set.players.8.tellrawed
 #游戏结束时大厅actionbar
-execute @e[type=armor_stand,scores={gameSTART=0,starting=0..1},tag=reset_OK] ~~~ execute @a ~~~ titleraw @s actionbar { "rawtext" : [ { "text" : "§r§f等级： §b§l" },{ "score" : { "name" : "@s" , "objective" : "等级"}},{ "text" : "    §r§f经验： §b§l" },{ "score" : { "name" : "@s" , "objective" : "等级经验"}},{ "text" : "§b / 5000\n" },{ "text" : "§r§f硬币： §e§l" },{ "score" : { "name" : "@s" , "objective" : "硬币数"}},{ "text" : "\n§r§f总灵魂数： §e§l" },{ "score" : { "name" : "@s" , "objective" : "总灵魂数"}},{ "text" : "\n§r§f总胜利数： §e§l" },{ "score" : { "name" : "@s" , "objective" : "胜场数"}} ] }
+execute @e[type=armor_stand,scores={gameSTART=0,starting=0..1},tag=reset_OK] ~~~ execute @a ~~~ titleraw @s actionbar { "rawtext" : [ { "text" : "§r§f等级： §b§l" },{ "score" : { "name" : "@s" , "objective" : "等级"}},{ "text" : "    §r§f经验： §b§l" },{ "score" : { "name" : "@s" , "objective" : "等级经验"}},{ "text" : "§b / 5000\n" },{ "text" : "§r§f硬币： §e§l" },{ "score" : { "name" : "@s" , "objective" : "硬币数"}},{ "text" : "\n§r§f总击杀数： §e§l" },{ "score" : { "name" : "@s" , "objective" : "总击杀数"}},{ "text" : "\n§r§f总胜利数： §e§l" },{ "score" : { "name" : "@s" , "objective" : "胜场数"}} ] }
 #等待玩家时设置等待显示计分板
 execute @e[type=armor_stand,name=main,scores={gameSTART=0,function_tick=20}] ~~~ function set_gameSTART0_waiting_scoreboard
 #开始倒计时-1
@@ -468,7 +467,7 @@ execute @e[type=armor_stand,scores={gameSTART=1..2,"游戏地图"=3,function_tic
 execute @e[type=armor_stand,scores={gameSTART=1},name=main] ~~~ execute @a[scores={"分队"=1..2},x=-63,y=171,z=-63,dx=126,dy=33,dz=126] ~~~ tag @s add degrade
 #传送结束时有分队值的玩家到大厅并清空背包
 execute @e[type=armor_stand,scores={gameSTART=0}] ~~~ tp @a[scores={"分队"=1..2},tag=!insider] -200 200 -200
-execute @e[type=armor_stand,scores={gameSTART=0}] ~~~ clear @a[scores={"分队"=1..2},tag=!insider]
+execute @e[type=armor_stand,scores={gameSTART=0}] ~~~ clear @a[tag=!insider]
 execute @e[type=armor_stand,scores={gameSTART=0}] ~~~ scoreboard players set @a[scores={"分队"=1..2}] "分队" 0
 #检测蓝队床情况#蓝队√-游戏显示
 execute @e[type=armor_stand,scores={gameSTART=1,"蓝床存活"=1}] ~~~ scoreboard players set "§b蓝队 §a✔" "游戏显示" -5
@@ -494,27 +493,29 @@ execute @e[type=armor_stand,scores={gameSTART=1,"显示事件"=9,function_tick=2
 execute @e[type=armor_stand,scores={gameSTART=1,"显示事件"=10,function_tick=20}] ~~~ scoreboard players add "§4平局警告" "游戏显示" -1
 execute @e[type=armor_stand,scores={gameSTART=1,"显示事件"=11,function_tick=20}] ~~~ scoreboard players add "§4§l游戏平局结束" "游戏显示" -1
 #事件1
-execute @e[type=armor_stand,scores={gameSTART=1,"显示事件"=1,"事件倒计时"=..0}] ~~~ function events/event_1
+execute @e[type=armor_stand,scores={gameSTART=1,"显示事件"=1}] ~~~ function events/event_1
 #事件2
-execute @e[type=armor_stand,scores={gameSTART=1,"显示事件"=1,"事件倒计时"=122}] ~~~ function events/event_2
+execute @e[type=armor_stand,scores={gameSTART=1,"显示事件"=1..2}] ~~~ function events/event_2
 #事件3
-execute @e[type=armor_stand,scores={gameSTART=1,"显示事件"=2,"事件倒计时"=123}] ~~~ function events/event_3
+execute @e[type=armor_stand,scores={gameSTART=1,"显示事件"=2..3}] ~~~ function events/event_3
 #事件4
-execute @e[type=armor_stand,scores={gameSTART=1,"显示事件"=3,"事件倒计时"=124}] ~~~ function events/event_4
+execute @e[type=armor_stand,scores={gameSTART=1,"显示事件"=3..4}] ~~~ function events/event_4
 #事件5
-execute @e[type=armor_stand,scores={gameSTART=1,"显示事件"=4,"事件倒计时"=125}] ~~~ function events/event_5
+execute @e[type=armor_stand,scores={gameSTART=1,"显示事件"=4..5}] ~~~ function events/event_5
 #事件6
-execute @e[type=armor_stand,scores={gameSTART=1,"显示事件"=5,"事件倒计时"=126}] ~~~ function events/event_6
+execute @e[type=armor_stand,scores={gameSTART=1,"显示事件"=5..6}] ~~~ function events/event_6
 #事件7
-execute @e[type=armor_stand,scores={gameSTART=1,"显示事件"=6,"事件倒计时"=127}] ~~~ function events/event_7
+execute @e[type=armor_stand,scores={gameSTART=1,"显示事件"=6..7}] ~~~ function events/event_7
 #事件8
-execute @e[type=armor_stand,scores={gameSTART=1,"显示事件"=7,"事件倒计时"=128}] ~~~ function events/event_8
+execute @e[type=armor_stand,scores={gameSTART=1,"显示事件"=7}] ~~~ function events/event_8
+execute @e[type=armor_stand,scores={gameSTART=1,"显示事件"=8}] ~~~ function events/event_8
 #事件9
-execute @e[type=armor_stand,scores={gameSTART=1,"显示事件"=8,"事件倒计时"=129}] ~~~ function events/event_9
+execute @e[type=armor_stand,scores={gameSTART=1,"显示事件"=8}] ~~~ function events/event_9
+execute @e[type=armor_stand,scores={gameSTART=1,"显示事件"=9}] ~~~ function events/event_9
 #事件10
-execute @e[type=armor_stand,scores={gameSTART=1,"显示事件"=9,"事件倒计时"=130}] ~~~ function events/event_10
+execute @e[type=armor_stand,scores={gameSTART=1,"显示事件"=9..10}] ~~~ function events/event_10
 #平局
-execute @e[type=armor_stand,scores={gameSTART=1,"显示事件"=10,"事件倒计时"=131}] ~~~ function events/event_draw
+execute @e[type=armor_stand,scores={gameSTART=1,"显示事件"=10}] ~~~ function events/event_draw
 #事件相关结束================
 #游戏开始时自动获取经验和硬币
 execute @e[type=armor_stand,scores={gameSTART=1,function_tick=20,fc_tick_cycle=10}] ~~~ tag @a add get.xp.game
@@ -530,7 +531,7 @@ execute @a[scores={"xp遍历中"=1},tag=get.xp.game] ~~~ scoreboard players oper
 execute @a[scores={"xp遍历中"=1},tag=get.xp.game] ~~~ execute @e[type=armor_stand,name=main,scores={gameSTART=1}] ~~~ tellraw @a[scores={"xp遍历中"=1},tag=get.xp.game] {"rawtext":[{"text":"§3在线奖励， 获得经验 "},{"score":{"name":"@s","objective":"xp_get_game"}}]}
 execute @a[scores={"xp遍历中"=1},tag=get.xp.game] ~~~ tag @s remove get.xp.game
 execute @a[scores={"xp遍历中"=1},tag=get.xp.soul] ~~~ scoreboard players operation @s "等级经验" += @e[type=armor_stand,name=main] xp_get_soul
-execute @a[scores={"xp遍历中"=1},tag=get.xp.soul] ~~~ execute @e[type=armor_stand,name=main,scores={gameSTART=1}] ~~~ tellraw @a[scores={"xp遍历中"=1},tag=get.xp.soul] {"rawtext":[{"text":"§3捡起灵魂， 获得经验 "},{"score":{"name":"@s","objective":"xp_get_soul"}}]}
+execute @a[scores={"xp遍历中"=1},tag=get.xp.soul] ~~~ execute @e[type=armor_stand,name=main,scores={gameSTART=1}] ~~~ tellraw @a[scores={"xp遍历中"=1},tag=get.xp.soul] {"rawtext":[{"text":"§3击杀玩家， 获得经验 "},{"score":{"name":"@s","objective":"xp_get_soul"}}]}
 execute @a[scores={"xp遍历中"=1},tag=get.xp.soul] ~~~ tag @s remove get.xp.soul
 execute @a[scores={"xp遍历中"=1},tag=get.xp.desbed] ~~~ scoreboard players operation @s "等级经验" += @e[type=armor_stand,name=main] xp_get_desbed
 execute @a[scores={"xp遍历中"=1},tag=get.xp.desbed] ~~~ execute @e[type=armor_stand,name=main,scores={gameSTART=1}] ~~~ tellraw @a[scores={"xp遍历中"=1},tag=get.xp.desbed] {"rawtext":[{"text":"§3破坏床， 获得经验 "},{"score":{"name":"@s","objective":"xp_get_desbed"}}]}
@@ -548,7 +549,7 @@ execute @a[scores={"coin遍历中"=1},tag=get.coin.game] ~~~ scoreboard players 
 execute @a[scores={"coin遍历中"=1},tag=get.coin.game] ~~~ execute @e[type=armor_stand,name=main,scores={gameSTART=1}] ~~~ tellraw @a[scores={"coin遍历中"=1},tag=get.coin.game] {"rawtext":[{"text":"§e在线奖励， 获得硬币 "},{"score":{"name":"@s","objective":"coin_get_game"}}]}
 execute @a[scores={"coin遍历中"=1},tag=get.coin.game] ~~~ tag @s remove get.coin.game
 execute @a[scores={"coin遍历中"=1},tag=get.coin.soul] ~~~ scoreboard players operation @s "硬币数" += @e[type=armor_stand,name=main] coin_get_soul
-execute @a[scores={"coin遍历中"=1},tag=get.coin.soul] ~~~ execute @e[type=armor_stand,name=main,scores={gameSTART=1}] ~~~ tellraw @a[scores={"coin遍历中"=1},tag=get.coin.soul] {"rawtext":[{"text":"§e捡起灵魂， 获得硬币 "},{"score":{"name":"@s","objective":"coin_get_soul"}}]}
+execute @a[scores={"coin遍历中"=1},tag=get.coin.soul] ~~~ execute @e[type=armor_stand,name=main,scores={gameSTART=1}] ~~~ tellraw @a[scores={"coin遍历中"=1},tag=get.coin.soul] {"rawtext":[{"text":"§e击杀玩家， 获得硬币 "},{"score":{"name":"@s","objective":"coin_get_soul"}}]}
 execute @a[scores={"coin遍历中"=1},tag=get.coin.soul] ~~~ tag @s remove get.coin.soul
 execute @a[scores={"coin遍历中"=1},tag=get.coin.desbed] ~~~ scoreboard players operation @s "硬币数" += @e[type=armor_stand,name=main] coin_get_desbed
 execute @a[scores={"coin遍历中"=1},tag=get.coin.desbed] ~~~ execute @e[type=armor_stand,name=main,scores={gameSTART=1}] ~~~ tellraw @a[scores={"coin遍历中"=1},tag=get.coin.desbed] {"rawtext":[{"text":"§e破坏床， 获得硬币 "},{"score":{"name":"@s","objective":"coin_get_desbed"}}]}
@@ -587,5 +588,29 @@ execute @e[type=armor_stand,name=main,scores={gameSTART=1,"红保护等级"=3,fu
 execute @e[type=armor_stand,name=main,scores={gameSTART=1,"红锋利等级"=1,function_tick=20}] ~~~ clone 310 4 311 310 4 311 4 185 55
 execute @e[type=armor_stand,name=main,scores={gameSTART=1,"红锋利等级"=2,function_tick=20}] ~~~ clone 310 5 311 310 5 311 4 185 55
 execute @e[type=armor_stand,name=main,scores={gameSTART=1,"红锋利等级"=3,function_tick=20}] ~~~ clone 310 6 311 310 6 311 4 185 55
+#will_get_XP
+execute @e[type=armor_stand,name=main,scores={gameSTART=1}] ~~~ execute @e[type=player,scores={"分队"=1..2,will_get_XP=1..}] ~~~ xp 1L @s
+execute @e[type=armor_stand,name=main,scores={gameSTART=1}] ~~~ execute @e[type=player,scores={"分队"=1..2,will_get_XP=1..}] ~~~ scoreboard players add @s will_get_XP -1
+execute @e[type=armor_stand,name=main,scores={gameSTART=1}] ~~~ execute @e[type=player,scores={"分队"=1..2,will_get_XP=1..}] ~~~ xp 1L @s
+execute @e[type=armor_stand,name=main,scores={gameSTART=1}] ~~~ execute @e[type=player,scores={"分队"=1..2,will_get_XP=1..}] ~~~ scoreboard players add @s will_get_XP -1
+execute @e[type=armor_stand,name=main,scores={gameSTART=1}] ~~~ execute @e[type=player,scores={"分队"=1..2,will_get_XP=1..}] ~~~ xp 1L @s
+execute @e[type=armor_stand,name=main,scores={gameSTART=1}] ~~~ execute @e[type=player,scores={"分队"=1..2,will_get_XP=1..}] ~~~ scoreboard players add @s will_get_XP -1
+execute @e[type=armor_stand,name=main,scores={gameSTART=1}] ~~~ execute @e[type=player,scores={"分队"=1..2,will_get_XP=1..}] ~~~ xp 1L @s
+execute @e[type=armor_stand,name=main,scores={gameSTART=1}] ~~~ execute @e[type=player,scores={"分队"=1..2,will_get_XP=1..}] ~~~ scoreboard players add @s will_get_XP -1
+execute @e[type=armor_stand,name=main,scores={gameSTART=1}] ~~~ execute @e[type=player,scores={"分队"=1..2,will_get_XP=1..}] ~~~ xp 1L @s
+execute @e[type=armor_stand,name=main,scores={gameSTART=1}] ~~~ execute @e[type=player,scores={"分队"=1..2,will_get_XP=1..}] ~~~ scoreboard players add @s will_get_XP -1
+execute @e[type=armor_stand,name=main,scores={gameSTART=1}] ~~~ execute @e[type=player,scores={"分队"=1..2,will_get_XP=1..}] ~~~ xp 1L @s
+execute @e[type=armor_stand,name=main,scores={gameSTART=1}] ~~~ execute @e[type=player,scores={"分队"=1..2,will_get_XP=1..}] ~~~ scoreboard players add @s will_get_XP -1
+execute @e[type=armor_stand,name=main,scores={gameSTART=1}] ~~~ execute @e[type=player,scores={"分队"=1..2,will_get_XP=1..}] ~~~ xp 1L @s
+execute @e[type=armor_stand,name=main,scores={gameSTART=1}] ~~~ execute @e[type=player,scores={"分队"=1..2,will_get_XP=1..}] ~~~ scoreboard players add @s will_get_XP -1
+execute @e[type=armor_stand,name=main,scores={gameSTART=1}] ~~~ execute @e[type=player,scores={"分队"=1..2,will_get_XP=1..}] ~~~ xp 1L @s
+execute @e[type=armor_stand,name=main,scores={gameSTART=1}] ~~~ execute @e[type=player,scores={"分队"=1..2,will_get_XP=1..}] ~~~ scoreboard players add @s will_get_XP -1
+execute @e[type=armor_stand,name=main,scores={gameSTART=1}] ~~~ execute @e[type=player,scores={"分队"=1..2,will_get_XP=1..}] ~~~ xp 1L @s
+execute @e[type=armor_stand,name=main,scores={gameSTART=1}] ~~~ execute @e[type=player,scores={"分队"=1..2,will_get_XP=1..}] ~~~ scoreboard players add @s will_get_XP -1
+execute @e[type=armor_stand,name=main,scores={gameSTART=1}] ~~~ execute @e[type=player,scores={"分队"=1..2,will_get_XP=1..}] ~~~ xp 1L @s
+execute @e[type=armor_stand,name=main,scores={gameSTART=1}] ~~~ execute @e[type=player,scores={"分队"=1..2,will_get_XP=1..}] ~~~ scoreboard players add @s will_get_XP -1
+#删除背包内的铁锭，金锭
+execute @e[type=armor_stand,name=main,scores={gameSTART=1..2}] ~~~ clear @a iron_ingot
+execute @e[type=armor_stand,name=main,scores={gameSTART=1..2}] ~~~ clear @a gold_ingot
 #停止升级的声音
 #execute @e[type=armor_stand,name=main,scores={gameSTART=1}] ~~~ stopsound @a random.levelup 

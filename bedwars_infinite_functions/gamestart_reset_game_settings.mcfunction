@@ -124,14 +124,49 @@ execute @e[type=armor_stand,name=main,scores={starting=1,"开始倒计时"=0}] ~
 execute @e[type=armor_stand,name=main,scores={starting=1,"开始倒计时"=0}] ~~~ tag @a remove 铁遍历3
 #tellraw获得无敌时间
 execute @e[type=armor_stand,name=main,scores={starting=1,"开始倒计时"=0}] ~~~ execute @a[scores={"分队"=1..2}] ~~~ tellraw @s { "rawtext" : [ { "text" : "§f§l起床战争 · 无限火力 >> §b§l您获得了 3 秒无敌时间" } ] }
-#当局灵魂数 -> 0
-execute @e[type=armor_stand,name=main,scores={starting=1,"开始倒计时"=0}] ~~~ execute @a[scores={"分队"=1..2}] ~~~ scoreboard players set @s "当局灵魂数" 0
+#击杀数 -> 0
+execute @e[type=armor_stand,name=main,scores={starting=1,"开始倒计时"=0}] ~~~ execute @a[scores={"分队"=1..2}] ~~~ scoreboard players set @s "击杀数" 0
 #游戏开始tellraw游戏玩法
 execute @e[type=armor_stand,name=main,scores={starting=1,"开始倒计时"=0}] ~~~ tellraw @a { "rawtext" : [ { "text" : "§a§l▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀\n                     §f起床战争 \n \n §e保护你的床并摧毁敌人的床， 收集铁锭，金锭，绿宝石和钻石\n           来升级，使自身和队伍变得更强。\n \n§a§l▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀" } ] }
 #给予木剑
 execute @e[type=armor_stand,name=main,scores={starting=1,"开始倒计时"=0}] ~~~ replaceitem entity @a[scores={"分队"=1..2}] slot.hotbar 0 wooden_sword 1 0 {"minecraft:item_lock":{"mode":"lock_in_inventory"},"minecraft:keep_on_death":{}}
 #给予剪刀
 execute @e[type=armor_stand,name=main,scores={starting=1,"开始倒计时"=0}] ~~~ replaceitem entity @a[scores={"分队"=1..2}] slot.hotbar 1 shears 1 0 {"minecraft:item_lock":{"mode":"lock_in_inventory"},"minecraft:keep_on_death":{}}
+#reset will_get_XP
+execute @e[type=armor_stand,name=main,scores={starting=1,"开始倒计时"=0}] ~~~ scoreboard players reset * will_get_XP
+#R_iron_count_1 -> 0
+#R_iron_count_2 -> 0
+#R_iron_count_3 -> 0
+execute @e[type=armor_stand,name=main,scores={starting=1,"开始倒计时"=0}] ~~~ scoreboard players set @e[type=armor_stand,name=spawn.red_iron_1] R_iron_count_1 0
+execute @e[type=armor_stand,name=main,scores={starting=1,"开始倒计时"=0}] ~~~ scoreboard players set @e[type=armor_stand,name=spawn.red_iron_2] R_iron_count_2 0
+execute @e[type=armor_stand,name=main,scores={starting=1,"开始倒计时"=0}] ~~~ scoreboard players set @e[type=armor_stand,name=spawn.red_iron_3] R_iron_count_3 0
+#B_iron_count_1 -> 0
+#B_iron_count_2 -> 0
+#B_iron_count_3 -> 0
+execute @e[type=armor_stand,name=main,scores={starting=1,"开始倒计时"=0}] ~~~ scoreboard players set @e[type=armor_stand,name=spawn.blue_iron_1] B_iron_count_1 0
+execute @e[type=armor_stand,name=main,scores={starting=1,"开始倒计时"=0}] ~~~ scoreboard players set @e[type=armor_stand,name=spawn.blue_iron_2] B_iron_count_2 0
+execute @e[type=armor_stand,name=main,scores={starting=1,"开始倒计时"=0}] ~~~ scoreboard players set @e[type=armor_stand,name=spawn.blue_iron_3] B_iron_count_3 0
+#R_spawned_iron_1 -> 0
+#R_spawned_iron_2 -> 0
+#R_spawned_iron_3 -> 0
+execute @e[type=armor_stand,name=main,scores={starting=1,"开始倒计时"=0}] ~~~ scoreboard players set @e[type=armor_stand,name=spawn.red_iron_1] R_spawned_iron_1 0
+execute @e[type=armor_stand,name=main,scores={starting=1,"开始倒计时"=0}] ~~~ scoreboard players set @e[type=armor_stand,name=spawn.red_iron_2] R_spawned_iron_2 0
+execute @e[type=armor_stand,name=main,scores={starting=1,"开始倒计时"=0}] ~~~ scoreboard players set @e[type=armor_stand,name=spawn.red_iron_3] R_spawned_iron_3 0
+#B_spawned_iron_1 -> 0
+#B_spawned_iron_2 -> 0
+#B_spawned_iron_3 -> 0
+execute @e[type=armor_stand,name=main,scores={starting=1,"开始倒计时"=0}] ~~~ scoreboard players set @e[type=armor_stand,name=spawn.blue_iron_1] B_spawned_iron_1 0
+execute @e[type=armor_stand,name=main,scores={starting=1,"开始倒计时"=0}] ~~~ scoreboard players set @e[type=armor_stand,name=spawn.blue_iron_2] B_spawned_iron_2 0
+execute @e[type=armor_stand,name=main,scores={starting=1,"开始倒计时"=0}] ~~~ scoreboard players set @e[type=armor_stand,name=spawn.blue_iron_3] B_spawned_iron_3 0
+#R_gold_count -> 0
+execute @e[type=armor_stand,name=main,scores={starting=1,"开始倒计时"=0}] ~~~ scoreboard players set @e[type=armor_stand,name=spawn.red_gold] R_gold_count 0
+#B_gold_count -> 0
+execute @e[type=armor_stand,name=main,scores={starting=1,"开始倒计时"=0}] ~~~ scoreboard players set @e[type=armor_stand,name=spawn.blue_gold] B_gold_count 0
+#R_spawned_gold -> 0
+execute @e[type=armor_stand,name=main,scores={starting=1,"开始倒计时"=0}] ~~~ scoreboard players set @e[type=armor_stand,name=spawn.red_gold] R_spawned_gold 0
+#B_spawned_gold -> 0
+execute @e[type=armor_stand,name=main,scores={starting=1,"开始倒计时"=0}] ~~~ scoreboard players set @e[type=armor_stand,name=spawn.blue_gold] B_spawned_gold 0
+
 #生成game_uid并赋予玩家
 execute @e[type=armor_stand,name=main,scores={starting=1,"开始倒计时"=0}] ~~~ scoreboard players random @s game_uid 0 999999999
 execute @e[type=armor_stand,name=main,scores={starting=1,"开始倒计时"=0}] ~~~ scoreboard players operation @a[scores={"分队"=1..2}] game_uid = @s game_uid

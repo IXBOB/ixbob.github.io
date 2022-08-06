@@ -3,7 +3,7 @@ execute @e[type=armor_stand,name=main,scores={gameSTART=1}] ~~~ execute @a[score
 #检测装备降级
 execute @e[type=armor_stand,name=main,scores={gameSTART=1}] ~~~ execute @a[scores={"分队"=1..2,"剑等级"=2..},x=-67,y=5,z=-67,r=3,tag=degrade,tag=degrade_sword] ~~~ scoreboard players set @s "剑等级" 1
 #检测装备降级
-execute @e[type=armor_stand,name=main,scores={gameSTART=1}] ~~~ execute @a[scores={"分队"=1..2},x=-67,y=5,z=-67,r=3,tag=degrade,tag=degrade_sword] ~~~ tellraw @s { "rawtext" : [ { "text" : "§l起床战争 · 无限火力 >> §c您的 剑 已被重置为 1 级， 当前为 " } ] }
+execute @e[type=armor_stand,name=main,scores={gameSTART=1}] ~~~ execute @a[scores={"分队"=1..2},x=-67,y=5,z=-67,r=3,tag=degrade,tag=degrade_sword] ~~~ tellraw @s { "rawtext" : [ { "text" : "§l起床战争 · 无限火力 >> §c您的 剑 已被重置为 1 级" } ] }
 #检测装备降级
 execute @e[type=armor_stand,name=main,scores={gameSTART=1}] ~~~ execute @a[scores={"分队"=1..2},x=-67,y=5,z=-67,r=3,tag=degrade,tag=degrade_sword] ~~~ tag @s remove degrade_sword
 #检测装备降级
