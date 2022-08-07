@@ -166,6 +166,26 @@ execute @e[type=armor_stand,name=main,scores={starting=1,"开始倒计时"=0}] ~
 execute @e[type=armor_stand,name=main,scores={starting=1,"开始倒计时"=0}] ~~~ scoreboard players set @e[type=armor_stand,name=spawn.red_gold] R_spawned_gold 0
 #B_spawned_gold -> 0
 execute @e[type=armor_stand,name=main,scores={starting=1,"开始倒计时"=0}] ~~~ scoreboard players set @e[type=armor_stand,name=spawn.blue_gold] B_spawned_gold 0
+#diamond_count_1 -> 0
+#diamond_count_2 -> 0
+#diamond_count_3 -> 0
+#diamond_count_4 -> 0
+execute @e[type=armor_stand,name=main,scores={starting=1,"开始倒计时"=0}] ~~~ scoreboard players set @e[type=armor_stand,name=spawn.diamond_1] diamond_count_1 0
+execute @e[type=armor_stand,name=main,scores={starting=1,"开始倒计时"=0}] ~~~ scoreboard players set @e[type=armor_stand,name=spawn.diamond_2] diamond_count_2 0
+execute @e[type=armor_stand,name=main,scores={starting=1,"开始倒计时"=0}] ~~~ scoreboard players set @e[type=armor_stand,name=spawn.diamond_3] diamond_count_3 0
+execute @e[type=armor_stand,name=main,scores={starting=1,"开始倒计时"=0}] ~~~ scoreboard players set @e[type=armor_stand,name=spawn.diamond_4] diamond_count_4 0
+#spawned_diam_1 -> 0
+#spawned_diam_2 -> 0
+#spawned_diam_3 -> 0
+#spawned_diam_4 -> 0
+execute @e[type=armor_stand,name=main,scores={starting=1,"开始倒计时"=0}] ~~~ scoreboard players set @e[type=armor_stand,name=spawn.diamond_1] spawned_diam_1 0
+execute @e[type=armor_stand,name=main,scores={starting=1,"开始倒计时"=0}] ~~~ scoreboard players set @e[type=armor_stand,name=spawn.diamond_2] spawned_diam_2 0
+execute @e[type=armor_stand,name=main,scores={starting=1,"开始倒计时"=0}] ~~~ scoreboard players set @e[type=armor_stand,name=spawn.diamond_3] spawned_diam_3 0
+execute @e[type=armor_stand,name=main,scores={starting=1,"开始倒计时"=0}] ~~~ scoreboard players set @e[type=armor_stand,name=spawn.diamond_4] spawned_diam_4 0
+#emerald_count -> 0
+execute @e[type=armor_stand,name=main,scores={starting=1,"开始倒计时"=0}] ~~~ scoreboard players set @e[type=armor_stand,name=spawn.emerald] emerald_count 0
+#spawned_emerald -> 0
+execute @e[type=armor_stand,name=main,scores={starting=1,"开始倒计时"=0}] ~~~ scoreboard players set @e[type=armor_stand,name=spawn.emerald] spawned_emerald 0
 
 #生成game_uid并赋予玩家
 execute @e[type=armor_stand,name=main,scores={starting=1,"开始倒计时"=0}] ~~~ scoreboard players random @s game_uid 0 999999999

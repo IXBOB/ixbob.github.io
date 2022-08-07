@@ -50,6 +50,8 @@ execute @e[type=armor_stand,scores={"游戏地图"=3,function_tick=20,gameSTART=
 execute @e[type=armor_stand,scores={"游戏地图"=3,function_tick=20,gameSTART=0}] ~~~ execute @e[type=armor_stand,name=reset,tag=reset] ~~~ detect ~ ~-1 ~ barrier 0 clone 237 ~ 33 224 ~ 16 -32 ~176 16
 #reset(clone绿宝石点）
 execute @e[type=armor_stand,scores={"游戏地图"=3,function_tick=20,gameSTART=0}] ~~~ execute @e[type=armor_stand,name=reset,tag=reset] ~~~ detect ~ ~-1 ~ barrier 0 clone 244 ~ -12 268 ~ 12 -12 ~176 -12
+#删除重置时掉落的方块
+execute @e[type=armor_stand,scores={gameSTART=0}] ~~~ execute @e[type=armor_stand,name=reset,tag=reset] ~~~ detect ~ ~-1 ~ barrier 0 kill @e[type=falling_block]
 #TP盔甲架向上
 execute @e[type=armor_stand,scores={"游戏地图"=3,function_tick=20,gameSTART=0}] ~~~ execute @e[type=armor_stand,tag=reset,name=reset] ~~~ detect ~ ~-1 ~ barrier 0 tp @s ~ ~1 ~
 #检测reset完毕
@@ -72,5 +74,3 @@ execute @e[type=armor_stand,name=main,scores={gameSTART=0,reseting=1,"重置百�
 execute @e[type=armor_stand,name=main,scores={gameSTART=0,reseting=1,"重置百分数"=95,"游戏模式"=2}] ~~~ clone -44 4 -65 -50 7 -72 -3 185 43 masked
 #疾速模式时复制蓝床保护方块
 execute @e[type=armor_stand,name=main,scores={gameSTART=0,reseting=1,"重置百分数"=95,"游戏模式"=2}] ~~~ clone -53 4 -65 -59 7 -72 -3 185 -50 masked
-#删除重置时掉落的方块
-execute @e[type=armor_stand,name=reset,tag=reset,scores={gameSTART=0}] ~~~ detect ~ ~-1 ~ barrier 0 kill @e[type=falling_block]

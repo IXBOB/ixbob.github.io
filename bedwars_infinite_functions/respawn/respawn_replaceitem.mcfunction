@@ -12,6 +12,8 @@ execute @e[type=armor_stand,scores={gameSTART=1},name=main] ~~~ execute @a[x=-77
 execute @e[type=armor_stand,scores={gameSTART=1},name=main] ~~~ execute @a[x=-77,y=5,z=-67,r=3,scores={"分队"=1..2,"斧等级"=2}] ~~~ replaceitem entity @s slot.hotbar 2 stone_axe 1 0 {"minecraft:item_lock":{"mode":"lock_in_inventory"},"minecraft:keep_on_death":{}}
 #replaceitem斧等级3
 execute @e[type=armor_stand,scores={gameSTART=1},name=main] ~~~ execute @a[x=-77,y=5,z=-67,r=3,scores={"分队"=1..2,"斧等级"=3}] ~~~ replaceitem entity @s slot.hotbar 2 iron_axe 1 0 {"minecraft:item_lock":{"mode":"lock_in_inventory"},"minecraft:keep_on_death":{}}
+#replaceitem剪刀
+execute @e[type=armor_stand,scores={gameSTART=1},name=main] ~~~ execute @a[x=-77,y=5,z=-67,r=3,scores={"分队"=1..2}] ~~~ replaceitem entity @s slot.hotbar 3 shears 1 0 {"minecraft:item_lock":{"mode":"lock_in_inventory"},"minecraft:keep_on_death":{}}
 #replaceitem防具等1
 execute @e[type=armor_stand,scores={gameSTART=1},name=main] ~~~ execute @a[x=-77,y=5,z=-67,r=3,scores={"分队"=1,"防具等级"=1..4}] ~~~ replaceitem entity @s slot.armor.head 0 bedwars:red_team_helmet 1 0 {"minecraft:item_lock":{"mode":"lock_in_slot"},"minecraft:keep_on_death":{}}
 execute @e[type=armor_stand,scores={gameSTART=1},name=main] ~~~ execute @a[x=-77,y=5,z=-67,r=3,scores={"分队"=1,"防具等级"=1..4}] ~~~ replaceitem entity @s slot.armor.chest 0 bedwars:red_team_chestplate 1 0 {"minecraft:item_lock":{"mode":"lock_in_slot"},"minecraft:keep_on_death":{}}
