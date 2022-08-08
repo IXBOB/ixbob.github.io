@@ -3,7 +3,6 @@
       "function_tick/function_tick",
       "game_repeat",
       "ore_spawner",
-      "weapon_upgrade",
       "team_upgrade",
       "refresh_coin_get",
       "refresh_xp_get",
