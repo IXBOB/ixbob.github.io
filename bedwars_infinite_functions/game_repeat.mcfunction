@@ -592,26 +592,9 @@ execute @e[type=armor_stand,name=main,scores={gameSTART=1,"红锋利等级"=1,fu
 execute @e[type=armor_stand,name=main,scores={gameSTART=1,"红锋利等级"=2,function_tick=20}] ~~~ clone 310 5 311 310 5 311 4 185 55
 execute @e[type=armor_stand,name=main,scores={gameSTART=1,"红锋利等级"=3,function_tick=20}] ~~~ clone 310 6 311 310 6 311 4 185 55
 #will_get_XP
-execute @e[type=armor_stand,name=main,scores={gameSTART=1}] ~~~ execute @e[type=player,scores={"分队"=1..2,will_get_XP=1..}] ~~~ xp 1L @s
-execute @e[type=armor_stand,name=main,scores={gameSTART=1}] ~~~ execute @e[type=player,scores={"分队"=1..2,will_get_XP=1..}] ~~~ scoreboard players add @s will_get_XP -1
-execute @e[type=armor_stand,name=main,scores={gameSTART=1}] ~~~ execute @e[type=player,scores={"分队"=1..2,will_get_XP=1..}] ~~~ xp 1L @s
-execute @e[type=armor_stand,name=main,scores={gameSTART=1}] ~~~ execute @e[type=player,scores={"分队"=1..2,will_get_XP=1..}] ~~~ scoreboard players add @s will_get_XP -1
-execute @e[type=armor_stand,name=main,scores={gameSTART=1}] ~~~ execute @e[type=player,scores={"分队"=1..2,will_get_XP=1..}] ~~~ xp 1L @s
-execute @e[type=armor_stand,name=main,scores={gameSTART=1}] ~~~ execute @e[type=player,scores={"分队"=1..2,will_get_XP=1..}] ~~~ scoreboard players add @s will_get_XP -1
-execute @e[type=armor_stand,name=main,scores={gameSTART=1}] ~~~ execute @e[type=player,scores={"分队"=1..2,will_get_XP=1..}] ~~~ xp 1L @s
-execute @e[type=armor_stand,name=main,scores={gameSTART=1}] ~~~ execute @e[type=player,scores={"分队"=1..2,will_get_XP=1..}] ~~~ scoreboard players add @s will_get_XP -1
-execute @e[type=armor_stand,name=main,scores={gameSTART=1}] ~~~ execute @e[type=player,scores={"分队"=1..2,will_get_XP=1..}] ~~~ xp 1L @s
-execute @e[type=armor_stand,name=main,scores={gameSTART=1}] ~~~ execute @e[type=player,scores={"分队"=1..2,will_get_XP=1..}] ~~~ scoreboard players add @s will_get_XP -1
-execute @e[type=armor_stand,name=main,scores={gameSTART=1}] ~~~ execute @e[type=player,scores={"分队"=1..2,will_get_XP=1..}] ~~~ xp 1L @s
-execute @e[type=armor_stand,name=main,scores={gameSTART=1}] ~~~ execute @e[type=player,scores={"分队"=1..2,will_get_XP=1..}] ~~~ scoreboard players add @s will_get_XP -1
-execute @e[type=armor_stand,name=main,scores={gameSTART=1}] ~~~ execute @e[type=player,scores={"分队"=1..2,will_get_XP=1..}] ~~~ xp 1L @s
-execute @e[type=armor_stand,name=main,scores={gameSTART=1}] ~~~ execute @e[type=player,scores={"分队"=1..2,will_get_XP=1..}] ~~~ scoreboard players add @s will_get_XP -1
-execute @e[type=armor_stand,name=main,scores={gameSTART=1}] ~~~ execute @e[type=player,scores={"分队"=1..2,will_get_XP=1..}] ~~~ xp 1L @s
-execute @e[type=armor_stand,name=main,scores={gameSTART=1}] ~~~ execute @e[type=player,scores={"分队"=1..2,will_get_XP=1..}] ~~~ scoreboard players add @s will_get_XP -1
-execute @e[type=armor_stand,name=main,scores={gameSTART=1}] ~~~ execute @e[type=player,scores={"分队"=1..2,will_get_XP=1..}] ~~~ xp 1L @s
-execute @e[type=armor_stand,name=main,scores={gameSTART=1}] ~~~ execute @e[type=player,scores={"分队"=1..2,will_get_XP=1..}] ~~~ scoreboard players add @s will_get_XP -1
-execute @e[type=armor_stand,name=main,scores={gameSTART=1}] ~~~ execute @e[type=player,scores={"分队"=1..2,will_get_XP=1..}] ~~~ xp 1L @s
-execute @e[type=armor_stand,name=main,scores={gameSTART=1}] ~~~ execute @e[type=player,scores={"分队"=1..2,will_get_XP=1..}] ~~~ scoreboard players add @s will_get_XP -1
+
+execute @e[type=armor_stand,name=main,scores={gameSTART=1}] ~~~ execute @e[type=player,scores={"分队"=1..2,will_get_XP=1..}] ~~~ function will_get_XP
+
 #删除背包内的铁锭，金锭，钻石，绿宝石
 execute @e[type=armor_stand,name=main,scores={gameSTART=1..2}] ~~~ clear @a iron_ingot
 execute @e[type=armor_stand,name=main,scores={gameSTART=1..2}] ~~~ clear @a gold_ingot
