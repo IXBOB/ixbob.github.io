@@ -617,5 +617,17 @@ execute @e[type=armor_stand,name=main,scores={gameSTART=1..2}] ~~~ clear @a iron
 execute @e[type=armor_stand,name=main,scores={gameSTART=1..2}] ~~~ clear @a gold_ingot
 execute @e[type=armor_stand,name=main,scores={gameSTART=1..2}] ~~~ clear @a diamond
 execute @e[type=armor_stand,name=main,scores={gameSTART=1..2}] ~~~ clear @a emerald
+
+
+
+#检测装备升级
+execute @e[type=armor_stand,name=main,scores={gameSTART=1}] ~~~ execute @e[type=player,scores={"分队"=1..2},tag=up_sword] ~~~ function weapon_upgrade
+
+execute @e[type=armor_stand,name=main,scores={gameSTART=1}] ~~~ execute @e[type=player,scores={"分队"=1..2},tag=up_pickaxe] ~~~ function weapon_upgrade
+
+execute @e[type=armor_stand,name=main,scores={gameSTART=1}] ~~~ execute @e[type=player,scores={"分队"=1..2},tag=up_axe] ~~~ function weapon_upgrade
+
+execute @e[type=armor_stand,name=main,scores={gameSTART=1}] ~~~ execute @e[type=player,scores={"分队"=1..2},tag=up_armor] ~~~ function weapon_upgrade
+
 #停止升级的声音
 #execute @e[type=armor_stand,name=main,scores={gameSTART=1}] ~~~ stopsound @a random.levelup 
