@@ -186,7 +186,10 @@ execute @e[type=armor_stand,name=main,scores={starting=1,"开始倒计时"=0}] ~
 execute @e[type=armor_stand,name=main,scores={starting=1,"开始倒计时"=0}] ~~~ scoreboard players set @e[type=armor_stand,name=spawn.emerald] emerald_count 0
 #spawned_emerald -> 0
 execute @e[type=armor_stand,name=main,scores={starting=1,"开始倒计时"=0}] ~~~ scoreboard players set @e[type=armor_stand,name=spawn.emerald] spawned_emerald 0
-
+#删除附魔锋利tag
+execute @e[type=armor_stand,name=main,scores={starting=1,"开始倒计时"=0}] ~~~ tag @a remove have_upgraded_sword_sharpnessI
+execute @e[type=armor_stand,name=main,scores={starting=1,"开始倒计时"=0}] ~~~ tag @a remove have_upgraded_sword_sharpnessII
+execute @e[type=armor_stand,name=main,scores={starting=1,"开始倒计时"=0}] ~~~ tag @a remove have_upgraded_sword_sharpnessIII
 #生成game_uid并赋予玩家
 execute @e[type=armor_stand,name=main,scores={starting=1,"开始倒计时"=0}] ~~~ scoreboard players random @s game_uid 0 999999999
 execute @e[type=armor_stand,name=main,scores={starting=1,"开始倒计时"=0}] ~~~ scoreboard players operation @a[scores={"分队"=1..2}] game_uid = @s game_uid

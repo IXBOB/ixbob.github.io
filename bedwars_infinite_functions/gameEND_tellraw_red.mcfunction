@@ -17,7 +17,7 @@ scoreboard players operation @e[type=armor_stand,name=main] kill.highest > @a[sc
 scoreboard players operation @a[scores={"分队"=1..2},tag=!kill.FIRST] kill.cache -= @e[type=armor_stand,name=main] kill.highest
 tag @a[scores={"分队"=1..2,kill.cache=0},tag=!kill.FIRST] add kill.SECOND
 execute @a[scores={"分队"=1..2},tag=kill.SECOND] ~~~ tellraw @a {"rawtext":[{"text":"\n     §6§l击杀数第二名 §7"},{"selector":"@s"},{"text":" - "},{ "score" : { "name" : "@s" , "objective" : "击杀数"}}]}
-execute @a[scores={"分队"=1..2},tag=!kill.FIRST,tag=!kill.SECOND] ~~~ scoreboard players operation @s kill.cache = @s kill
+execute @a[scores={"分队"=1..2},tag=!kill.FIRST,tag=!kill.SECOND] ~~~ scoreboard players operation @s kill.cache = @s 击杀数
 scoreboard players set @e[name=main] kill.highest 0
 scoreboard players operation @e[type=armor_stand,name=main] kill.highest > @a[scores={"分队"=1..2},tag=!kill.FIRST,tag=!kill.SECOND] 击杀数
 scoreboard players operation @a[scores={"分队"=1..2},tag=!kill.FIRST,tag=!kill.SECOND] kill.cache -= @e[type=armor_stand,name=main] kill.highest
