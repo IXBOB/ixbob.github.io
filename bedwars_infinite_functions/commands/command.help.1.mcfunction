@@ -1,2 +1,0 @@
-execute @a[tag=op,tag=command.help.1] ~~~ tellraw @s { "rawtext" : [ { "text" : "§a§l显示指令帮助， 当前第 1 / 2 页\n输入 /tag @s add command.help.<数字> 来前往指定页面\n§r§fadd op 给予指定玩家地图管理员权限\nremove op 夺去指定玩家地图管理员权限\nadd set.start.players.<数字> 设置开始玩家数(2-8)\nadd command.set.player.ban.negative 因消极游戏封禁指定玩家5分钟\nadd command.set.player.ban.cheat 因游戏作弊封禁指定玩家5分钟\nadd command.set.player.ban.bad_words 因不雅言语封禁指定玩家5分钟"} ] }
-execute @a[tag=op,tag=command.help.1] ~~~ tag @s remove command.help.1
