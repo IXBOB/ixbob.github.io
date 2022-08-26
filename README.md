@@ -26,12 +26,8 @@ IXBOB的QQ屑群号：746157993
 ### 正在更新的地图
 𝐢 此处地图正在持续更新。
 
-起床战争无限火力 （MC BE 1.18）
+起床战争无限火力 （MC BE 1.18）（停止在中国版的维护，即将从中国版下架并上架至mcpedl国际版）
 <br/><a href="http://ixbob.github.io/download/download1.html" target="_blank">下载</a> &nbsp; &nbsp; &nbsp; <a href="http://ixbob.github.io/changelog/map1.html" target="_blank">更新日志</a> &nbsp; &nbsp; &nbsp; <a href="https://x19.gsf.netease.com/obt20210511102131/#/component-details/brief-desc?item_id=4653288702388430547">在中国版查看</a>
-<br/>
-
-极寒之夜 （MC BE 1.18）
-<br/><a href="http://ixbob.github.io/download/download6.html" target="_blank">下载</a>
 <br/>
 
 ### 搁置的地图
@@ -39,6 +35,10 @@ IXBOB的QQ屑群号：746157993
 
 村民保卫战 <最后上传2021.12.25> （MC BE 1.17）
 <br/><a href="http://ixbob.github.io/download/download4.html" target="_blank">下载</a>
+<br/>
+
+极寒之夜 （MC BE 1.18）
+<br/><a href="http://ixbob.github.io/download/download6.html" target="_blank">下载</a>
 <br/>
 
 敲窗大战 （MC BE 1.17）
