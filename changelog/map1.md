@@ -1,20 +1,37 @@
 
 
 <title>
-  起床战争·无限火力 更新日志
+  BED WARS - Created By IXBOB
+  Change Log
 </title>
 
-# 起床战争无限火力
+# BED WARS - Created By IXBOB
 
-<br/>作者 IXBOB
-<br/>其他突出贡献玩家 Clown_YAZ, Pwo_qwq
-<br/><a href="https://github.com/IXBOB/IXBOB.github.io/releases">在Github上查看或下载历史版本</a>
+<br/>Created By IXBOB
+<br/>Helped Players: Clown_YAZ, Pwo_qwq
+<br/><a href="https://github.com/IXBOB/IXBOB.github.io/releases">View or download history versions on Github</a>
 
-# 起床战争无限火力中国版停止维护通知
+# 起床战争无限火力中国版停止维护通知 BED WARS - Created By IXBOB China version stop maintenance notice
 
-因网易服务器最近实在过于土豆，本地图又有大量命令运行，导致地图卡顿。为了不让中国版玩家遭受卡顿之痛苦，经考虑，原本准备上架1.2.0版本的计划取消，停止维护起床战争无限火力中国版并下架地图，如今后网易修复卡顿问题，作者仍会继续维护中国版地图。日后我们会将本地图翻译为英语后发布至mcpedl （国际版），给您带来不便敬请谅解！
+因网易服务器最近实在过于土豆，本地图又有大量命令运行，导致地图卡顿。为了不让中国版玩家遭受卡顿之痛苦，经考虑，原本准备上架1.2.0版本的计划取消，停止维护起床战争无限火力中国版并下架地图，如今后网易修复卡顿问题，作者仍会继续维护中国版地图。日后我们会将本地图翻译为英语后发布至mcpedl （国际版），给您带来不便敬请谅解！(Because the NetEase server has been too potatoes recently, and a large number of commands are running on this map, causing the map to freeze. In order not to let the Chinese version of the players suffer from the pain of stuttering, after consideration, the plan to put on the 1.2.0 version was cancelled, the maintenance of the Chinese version of Infinite Firepower of Wake Up War was stopped, and the map was removed from the shelves. Now that NetEase fixes the stuttering problem, the author will still Continue to maintain the Chinese version of the map. We will translate this map into English and publish it to mcpedl (international version) in the future. Sorry for the inconvenience! --Google translate)
 
-## 更新日志
+## Change log
+
+### 20220826-20220829 Bed wars v1.2.0-PreRelease3 Change log
+<br/>✔1. Removed the black list system.
+<br/>✔2. The experience required to upgrade the lobby is reduced to 1000.
+<br/>✔3. Excess experience when leveling up will be transferred to the next level.
+<br/>✔4. Fixed a bug that would cause stacking of coins per round to settle in the pre2 version.
+<br/>✔5. Translated the map into English.
+
+### 20220815-20220820 起床战争无限火力v1.2.0PreRelease2 更新日志
+<br/>✔1. 修复了v1.2.0beta和prerelease版中处于封禁状态的玩家仍会在游戏开始时被分队的问题
+<br/>✔2. 加入了系统盔甲架被破坏检测
+<br/>✔3. 删除了检测关闭命令方块终止游戏的功能，现在function会自动强制开启命令方块
+<br/>✔4. 优化了商店告示牌文字
+<br/>✔5. 经验瓶不再会因碰到墙壁而破碎消失了
+<br/>✔6. 大厅添加作者npc
+<br/>✔7. 添加了在玩家头顶显示血量的功能
 
 ### 20220815 起床战争无限火力v1.2.0-PreRelease1 更新日志
 <br/>✔1. 优化了破坏床的音效
