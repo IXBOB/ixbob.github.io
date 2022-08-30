@@ -1,4 +1,4 @@
-# IXBOB工作室
+# IXBOB Studio
 
 IXBOB工作室成立于2020年，目前工作室内有3人。
 
