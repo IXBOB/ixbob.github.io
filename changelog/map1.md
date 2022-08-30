@@ -17,7 +17,7 @@
 
 ## Change log
 
-### 20220826-20220829 Bed wars v1.2.0-PreRelease3 Change log
+### 20220826-20220829 Bed wars v1.2.0-PreRelease3 Change log (--->v1.2.0 Release)
 <br/>✔1. Removed the black list system.
 <br/>✔2. The experience required to upgrade the lobby is reduced to 1000.
 <br/>✔3. Excess experience when leveling up will be transferred to the next level.
