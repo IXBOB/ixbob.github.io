@@ -11,16 +11,11 @@ IXBOB
 
 <a href="https://discord.gg/RascQTuaRn" target="_blank">discord</a>
 
-# 该页面即将翻译为English(US)
+# 该页面正逐步翻译为English(US)
 
 我们即将停止在中国大陆的制作工作
 
-# 基岩版地图下载
-
-𝐢 以下地图均为 IXBOB 手撸，在此提供免费下载。
-<br/>期间参与创作的玩家较多，无法一一列出，在此一并表示谢意。
-<br/>地图未经授权禁止发布至各资源平台!
-
+# BEDROCK VERSION MAP DOWNLOAD
 
 ### 正在更新的地图
 𝐢 此处地图正在持续更新。
