@@ -25,7 +25,7 @@ IXBOB
 ### 正在更新的地图
 𝐢 此处地图正在持续更新。
 
-BEDWARS （MC BE 1.18）
+BEDWARS （MC BE 1.19.21+）
 <br/><a href="http://ixbob.github.io/download/download1.html" target="_blank">Download</a> &nbsp; &nbsp; &nbsp; <a href="http://ixbob.github.io/changelog/map1.html" target="_blank">Change log</a> &nbsp; &nbsp; &nbsp; <a href="https://mcpedl.com/bed-wars-created-by-ixbob/">View on MCPEDL</a>
 <br/>
 
