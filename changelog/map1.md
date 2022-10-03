@@ -1,19 +1,12 @@
 
 
-<title>
-  BED WARS - Created By IXBOB
-  Change Log
-</title>
-
 # BED WARS - Created By IXBOB
 
 <br/>Created By IXBOB
 <br/>Helped Players: Clown_YAZ, Pwo_qwq
 <br/><a href="https://github.com/IXBOB/IXBOB.github.io/releases">View or download history versions on Github</a>
 
-# 起床战争无限火力中国版停止维护通知 BED WARS - Created By IXBOB China version stop maintenance notice
-
-因网易服务器最近实在过于土豆，本地图又有大量命令运行，导致地图卡顿。为了不让中国版玩家遭受卡顿之痛苦，经考虑，原本准备上架1.2.0版本的计划取消，停止维护起床战争无限火力中国版并下架地图，如今后网易修复卡顿问题，作者仍会继续维护中国版地图。日后我们会将本地图翻译为英语后发布至mcpedl （国际版），给您带来不便敬请谅解！(Because the NetEase server has been too potatoes recently, and a large number of commands are running on this map, causing the map to freeze. In order not to let the Chinese version of the players suffer from the pain of stuttering, after consideration, the plan to put on the 1.2.0 version was cancelled, the maintenance of the Chinese version of Infinite Firepower of Wake Up War was stopped, and the map was removed from the shelves. Now that NetEase fixes the stuttering problem, the author will still Continue to maintain the Chinese version of the map. We will translate this map into English and publish it to mcpedl (international version) in the future. Sorry for the inconvenience! --Google translate)
+# NOTICE： BED WARS - Created By IXBOB China version has been stopped maintenance！
 
 ## Change log
 
