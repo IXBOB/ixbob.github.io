@@ -9,7 +9,7 @@ IXBOB
 
 ### CONTACT AND SUPPORT
 
-[<img src="./discord_button.png">](https://discord.gg/RascQTuaR)
+[<img src="./discord_button.png">](https://discord.gg/RascQTuaRn)
 [<img src="./patreon_button.png">](https://www.patreon.com/bedwars_created_by_IXBOB)
 
 # 该页面正逐步翻译为English(US)
