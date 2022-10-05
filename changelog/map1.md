@@ -6,6 +6,9 @@
 <br/>Helped Players: Clown_YAZ, Pwo_qwq
 <br/><a href="https://github.com/IXBOB/IXBOB.github.io/releases">View or download history versions on Github</a>
 
+[<img src="./discord_button.png">](https://discord.gg/RascQTuaRn)
+[<img src="./patreon_button.png">](https://www.patreon.com/bedwars_created_by_IXBOB)
+
 # NOTICE： BED WARS - Created By IXBOB China version has been stopped maintenance！
 
 ## Change log
