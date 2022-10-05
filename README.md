@@ -2,14 +2,15 @@
 
 IXBOB工作室成立于2020年
 
-### 工作室成员
+### STUDIO MEMBERS
 
 IXBOB
 <br/>F小冷 / MC小冷
 
-### CONTACT US
+### CONTACT AND SUPPORT
 
-<a href="https://discord.gg/RascQTuaRn" target="_blank">discord</a>
+<a href="https://discord.gg/RascQTuaRn"><img src="./discord_button.png"</a>
+<a href="https://www.patreon.com/bedwars_created_by_IXBOB"><img src="./patreon_button.png"</a>
 
 # 该页面正逐步翻译为English(US)
 
