@@ -5,7 +5,7 @@ IXBOB studio was established in 2020
 ### STUDIO MEMBERS
 
 IXBOB
-<br/>F小冷 / MC小冷
+<br/>Fsmallcold
 
 ### CONTACT AND SUPPORT
 
