@@ -1,6 +1,6 @@
 # IXBOB Studio
 
-IXBOB工作室成立于2020年
+IXBOB studio was established in 2020
 
 ### STUDIO MEMBERS
 
@@ -12,9 +12,9 @@ IXBOB
 [<img src="./discord_button.png">](https://discord.gg/RascQTuaRn)
 [<img src="./patreon_button.png">](https://www.patreon.com/bedwars_created_by_IXBOB)
 
-# 该页面正逐步翻译为English(US)
+# This page is being gradually translated into English (US)
 
-我们即将停止在中国大陆的制作工作
+We are about to stop production in mainland China.
 
 # BEDROCK VERSION MAP DOWNLOAD
 
