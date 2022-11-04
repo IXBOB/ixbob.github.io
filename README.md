@@ -59,7 +59,7 @@ BEDWARS （MC BE 1.19.21+）
 <br/><a href="http://ixbob.github.io/download/download7.html" target="_blank">下载</a>
 <br/>
 
-竞技小游戏合集 <Latest2022.1.2> <新版本疑似区块损坏丢失> （MC BE 1.16+）
+竞技小游戏合集 <Latest2022.1.2> <The new version is suspected to be damaged and lost> （MC BE 1.16+）
 <br/><a href="http://ixbob.github.io/download/download8.html" target="_blank">下载</a>
 <br/>
 
