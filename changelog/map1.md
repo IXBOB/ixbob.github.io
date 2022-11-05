@@ -13,12 +13,20 @@
 
 ## Change log
 
-### 20220826-20220829 Bed wars v1.2.0-PreRelease3 Change log (--->v1.2.0 Release)
+### 20220826-20220829 BED WARS - Created By IXBOB v1.2.0-release Change log
+<br/>Improvements in this release compared to the last beta:
 <br/>✔1. Removed the black list system.
 <br/>✔2. The experience required to upgrade the lobby is reduced to 1000.
 <br/>✔3. Excess experience when leveling up will be transferred to the next level.
 <br/>✔4. Fixed a bug that would cause stacking of coins per round to settle in the pre2 version.
 <br/>✔5. Translated the map into English.
+
+
+### 20220911-20221104 BED WARS - Created By IXBOB v1.2.1-beta.1 Change log
+<br/>✔1. Fixed some translate problems
+<br/>✔2. Improved some scoreboard text
+<br/>✔3. Added backpack menu (currently has particle options(Particles generated underfoot) and OP options(Adjust the number of players to start))
+
 
 ### 20220815-20220820 起床战争无限火力v1.2.0PreRelease2 更新日志
 <br/>✔1. 修复了v1.2.0beta和prerelease版中处于封禁状态的玩家仍会在游戏开始时被分队的问题
