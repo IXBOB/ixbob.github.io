@@ -4,7 +4,8 @@
 
 <br/>Created By IXBOB
 <br/>Helped Players: Clown_YAZ, Pwo_qwq
-<br/><a href="https://github.com/IXBOB/IXBOB.github.io/releases">View or download history versions on Github</a>
+<br/><a href="https://link-hub.net/485048/bed-wars-v120-by-ixbob" target="_blank">View/Download from LINKVERTISE</a>
+<br/><a href="https://github.com/IXBOB/IXBOB.github.io/releases">View/Download history versions on Github</a>
 
 [<img src="./discord_button.png">](https://discord.gg/RascQTuaRn)
 [<img src="./patreon_button.png">](https://www.patreon.com/bedwars_created_by_IXBOB)
