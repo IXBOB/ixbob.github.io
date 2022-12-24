@@ -20,7 +20,7 @@ We are about to stop production in mainland China.
 𝐢 The map is being updated here.
 
 BEDWARS （MC BE 1.19.21+）
-<br/><a href="https://link-hub.net/485048/bed-wars-v120-by-ixbob" target="_blank">Download from LINKVERTISE</a>
+<br/><a href="https://link-target.net/485048/bed-wars-v121-by-ixbob" target="_blank">Download from LINKVERTISE</a>
 <br/><a href="https://mcpedl.com/bed-wars-created-by-ixbob/">View on MCPEDL</a>
 <br/><a href="http://ixbob.github.io/changelog/map1.html" target="_blank">Change log</a>
 <br/>
