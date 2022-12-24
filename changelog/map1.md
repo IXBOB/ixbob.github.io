@@ -15,6 +15,11 @@
 ## Change log
 
 
+### 202201119-20221224 BED WARS - Created By IXBOB v1.2.1-release Change log
+<br/>Improvements in this release compared to the last beta:
+<br/>✔1. The diamond blocks in the diamond spawn point and the emerald blocks in the emerald spawn point can no longer be destroyed
+<br/>✔2. Fixed some text display errors
+<br/>✔3. upgraded the map version to BE1.19.5
 
 ### 20220911-20221104 BED WARS - Created By IXBOB v1.2.1-beta.1 Change log
 <br/>✔1. Fixed some translate problems
