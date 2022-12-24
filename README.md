@@ -37,38 +37,38 @@ BEDWARS （MC BE 1.19.21+）
 <br/>
 
 敲窗大战 （MC BE 1.17）
-<br/><a href="http://ixbob.github.io/download/download2.html" target="_blank">DOWNLOAD/a>
+<br/><a href="http://ixbob.github.io/download/download2.html" target="_blank">DOWNLOAD</a>
 <br/>
 
 ### OLD MAPS
 𝐢 The map here is no longer supported and no bug feedback is accepted.
 
 经典起床战争 （MC JE 1.18）
-<br/><a href="https://github.com/IXBOB/IXBOB.github.io/releases/tag/%E7%BB%8F%E5%85%B8%E8%B5%B7%E5%BA%8A%E6%88%98%E4%BA%89(java)-alpha0.1" target="_blank">下载</a>
+<br/><a href="https://github.com/IXBOB/IXBOB.github.io/releases/tag/%E7%BB%8F%E5%85%B8%E8%B5%B7%E5%BA%8A%E6%88%98%E4%BA%89(java)-alpha0.1" target="_blank">DOWNLOAD</a>
 <br/>
 
 休闲小游戏派对 <Latest2022.1.21> （MC BE 1.17）
-<br/><a href="http://ixbob.github.io/download/download3.html" target="_blank">下载</a>
+<br/><a href="http://ixbob.github.io/download/download3.html" target="_blank">DOWNLOAD</a>
 <br/>
 
 战桥 <Latest2020.11> （MC BE 1.14+）
-<br/><a href="http://ixbob.github.io/download/download5.html" target="_blank">下载</a>
+<br/><a href="http://ixbob.github.io/download/download5.html" target="_blank">DOWNLOAD</a>
 <br/>
 
 简单的竞技地图 <Latest2020.10.7> （MC BE 1.14+）
-<br/><a href="http://ixbob.github.io/download/download7.html" target="_blank">下载</a>
+<br/><a href="http://ixbob.github.io/download/download7.html" target="_blank">DOWNLOAD</a>
 <br/>
 
 竞技小游戏合集 <Latest2022.1.2> <The new version is suspected to be damaged and lost> （MC BE 1.16+）
-<br/><a href="http://ixbob.github.io/download/download8.html" target="_blank">下载</a>
+<br/><a href="http://ixbob.github.io/download/download8.html" target="_blank">DOWNLOAD</a>
 <br/>
 
 经典PVP地图 <Latest2021.2.1> （MC BE 1.16+）
-<br/><a href="http://ixbob.github.io/download/download9.html" target="_blank">下载</a>
+<br/><a href="http://ixbob.github.io/download/download9.html" target="_blank">DOWNLOAD</a>
 <br/>
 
 职业战争 <Latest2021.10.30> （MC BE 1.16+）
-<br/><a href="http://ixbob.github.io/download/download10.html" target="_blank">下载</a>
+<br/><a href="http://ixbob.github.io/download/download10.html" target="_blank">DOWNLOAD</a>
 <br/>
 
 起床战争 <Latest2020.10.11> <IXBOB's first map> （MC BE 1.14+）
