@@ -72,5 +72,5 @@ BEDWARS （MC BE 1.19.21+）
 <br/>
 
 起床战争 <Latest2020.10.11> <IXBOB's first map> （MC BE 1.14+）
-<br/><a href="http://ixbob.github.io/download/download11.html" target="_blank">下载</a>
+<br/><a href="http://ixbob.github.io/download/download11.html" target="_blank">DOWNLOAD</a>
 <br/>
