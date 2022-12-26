@@ -31,7 +31,7 @@
 <br/>✔1. Removed the black list system.
 <br/>✔2. The experience required to upgrade the lobby is reduced to 1000.
 <br/>✔3. Excess experience when leveling up will be transferred to the next level.
-<br/>✔4. Fixed a bug that would cause stacking of coins per round to settle in the pre2 version.
+<br/>✔4. Fixed a bug that would cause stacking of coins per round to settle in the pre1 and pre2 version.
 <br/>✔5. Translated the map into English.
 
 ### 20220815-20220820 起床战争无限火力v1.2.0PreRelease2 更新日志
