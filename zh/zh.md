@@ -1,6 +1,6 @@
-# BED WARS - Created By IXBOB
+#IXBOB 工作室
 
-IXBOB Studio成立于2020年
+IXBOB工作室 成立于2020年
 
 <br/><a href="http://ixbob.github.io">English</a>
 <br/><a href="http://ixbob.github.io/zh/zh">简体中文</a>
