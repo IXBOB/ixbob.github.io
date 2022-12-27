@@ -1,3 +1,5 @@
+# BED WARS - Created By IXBOB
+
 IXBOB Studio成立于2020年
 
 <br/><a href="ixbob.github.io">English</a>
