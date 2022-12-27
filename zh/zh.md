@@ -1,4 +1,4 @@
-#IXBOB 工作室
+# IXBOB工作室
 
 IXBOB工作室 成立于2020年
 
