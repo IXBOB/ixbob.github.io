@@ -28,7 +28,7 @@ BEDWARS （MC BE 1.19.21+）
 <br/><a href="https://mcpedl.com/bed-wars-created-by-ixbob/">在mcpedl上查看</a>
 <br/><a href="http://ixbob.github.io/changelog/map1.html" target="_blank">更新日志</a>
 <br/>
-
+ 
 ### 搁置的地图
 𝐢 此处地图因诸多原因停止更新，但在更新计划中。
 
