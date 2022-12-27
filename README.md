@@ -1,5 +1,8 @@
 IXBOB Studio was established in 2020
 
+<br/><a href="ixbob.github.io">English</a>
+<br/><a href="ixbob.github.io/zh.md" target="_blank">简体中文</a>
+
 # STUDIO MEMBERS
 
 IXBOB
