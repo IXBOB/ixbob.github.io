@@ -15,8 +15,6 @@ IXBOB
 [<img src="./discord_button.png">](https://discord.gg/RascQTuaRn)
 [<img src="./patreon_button.png">](https://www.patreon.com/bedwars_created_by_IXBOB)
 
-<br/>
-我们已经停止更新中文版地图
 
 # 基岩版地图下载
 
