@@ -13,9 +13,6 @@ IXBOB
 [<img src="./discord_button.png">](https://discord.gg/RascQTuaRn)
 [<img src="./patreon_button.png">](https://www.patreon.com/bedwars_created_by_IXBOB)
 
-This page is being gradually translated into English (US)
-<br/>
-We are about to stop production in mainland China.
 
 # BEDROCK VERSION MAP DOWNLOAD
 
