@@ -15,6 +15,24 @@
 ## Change log
 
 
+### 202201228-20221231 BED WARS - Created By IXBOB v1.2.2-beta.1 Change log
+<br/>✔1. Fixed the problem that the resource refresh point drop disappeared after changing the language to non-English (United States)
+<br/>✔2. Fixed the problem that sometimes the game mode is not adventure after the player enters the map for the first time
+<br/>✔3. Fixed some translation issues
+<br/>✔4. Player kills are now powered by tellraw
+<br/>✔5. Fixed the problem that bridge eggs may generate roads outside the map area
+<br/>✔6. Added experience bar countdown to game start
+<br/>✔7. Fixed the problem that the wool produced by the bridging egg did not match the color of the team
+<br/>✔8. Fixed the problem that there is no "20" in the countdown
+<br/>✔9. Deleted the sound of experience upgrade
+<br/>✔10. Fixed the problem that traps cannot take effect in v1.2.1
+<br/>✔11. Added "beep" sound effect for killing players
+<br/>✔12. Now the bed will automatically disappear after the bed self-destructs
+<br/>✔13. Optimized the actionbar of spectator players
+<br/>✔14. Optimized the use logic of experience bottles
+<br/>✔15. Updated lobby author player model textures
+<br/>✔16. Greatly optimized performance
+
 ### 202201119-20221224 BED WARS - Created By IXBOB v1.2.1-release Change log
 <br/>Improvements in this release compared to the last beta:
 <br/>✔1. The diamond blocks in the diamond spawn point and the emerald blocks in the emerald spawn point can no longer be destroyed
