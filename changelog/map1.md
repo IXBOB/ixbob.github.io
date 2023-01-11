@@ -14,6 +14,20 @@
 
 ## Change log
 
+### 20230101-20230111 BED WARS - Created By IXBOB v1.2.2-release Change log
+<br/>Improvements in this release compared to the last beta:
+<br/>✔1. Optimize the logic and performance of detecting experience and coins
+<br/>✔2. Optimized some text display
+<br/>✔3. Added INT (international version) text for the map title icon (because the update of the Chinese version of the map needs to be distinguished)
+<br/>✔4. Part of the sand and white stained glass in the map can no longer be destroyed
+<br/>✔5. Fixed the error that sometimes prompted to get experience and coins
+<br/>✔6. Fixed some tellraw text errors
+<br/>✔7. Fixed the problem that in the previous beta version, killing players would also prompt them to fall into the void
+<br/>✔8. Fixed the problem that the default particle effect of the player who enters the map for the first time is a green star (should be "none")
+<br/>✔9. Fixed the problem that the player's inventory menu flickered and could not be used
+<br/>✔10. Now the prompts for increasing coins and experience will be displayed after prompting the player to die
+<br/>✔11. Fixed the problem that the purchased items could not be obtained when the game was settled
+<br/>✔12. Added final kill prompt
 
 ### 202201228-20221231 BED WARS - Created By IXBOB v1.2.2-beta.1 Change log
 <br/>✔1. Fixed the problem that the resource refresh point drop disappeared after changing the language to non-English (United States)
