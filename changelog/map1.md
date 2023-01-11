@@ -10,7 +10,7 @@
 [<img src="./discord_button.png">](https://discord.gg/RascQTuaRn)
 [<img src="./patreon_button.png">](https://www.patreon.com/bedwars_created_by_IXBOB)
 
-## Change log
+# Change log
 
 ### 20230101-20230111 BED WARS - Created By IXBOB v1.2.2-release Change log
 <br/>Improvements in this release compared to the last beta:
