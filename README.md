@@ -19,8 +19,8 @@ IXBOB
 ### BEDROCK MAP
 𝐢 The map is being updated here.
 
-BEDWARS （MC BE 1.19.21+）
-<br/><a href="https://link-target.net/485048/bed-wars-v122-by-ixbob" target="_blank">Download from LINKVERTISE</a>
+BEDWARS （MC BE 1.19.51）
+<br/><a href="https://link-center.net/485048/bedwars-v1221-byixbob" target="_blank">Download from LINKVERTISE</a>
 <br/><a href="https://mcpedl.com/bed-wars-created-by-ixbob/">View on MCPEDL for details</a>
 <br/><a href="http://ixbob.github.io/changelog/map1.html" target="_blank">Change log</a>
 <br/><a href="https://github.com/IXBOB/bedwarsBE" target="_blank">Track updates</a>
