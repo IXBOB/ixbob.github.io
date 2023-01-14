@@ -12,6 +12,10 @@
 
 # Change log
 
+### 20230112-20230114 BED WARS - Created By IXBOB v1.2.2.1-release Change log
+<br/>✔1. Fixed an issue where the Sharpness team upgrade could not be purchased in v1.2.2.
+<br/>✔2. The gametestAPI is enabled, and added some custom commands.(Developing)
+
 ### 20230101-20230111 BED WARS - Created By IXBOB v1.2.2-release Change log
 <br/>Improvements in this release compared to the last beta:
 <br/>✔1. Optimize the logic and performance of detecting experience and coins
