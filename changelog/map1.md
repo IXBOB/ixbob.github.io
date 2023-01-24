@@ -12,6 +12,17 @@
 
 # Change log
 
+### 20230119-20230124 BED WARS - Created By IXBOB v1.3.0-beta.1 Change log
+<br/>✔1. Fixed the problem that the initial backpack menu page of new players was incorrect
+<br/>✔2. Fixed some scoreboard display issues
+<br/>✔3. Improved the display text of some titles
+<br/>✔4. Fixed a problem that caused the backpack menu to display abnormally after the game ended
+<br/>✔5. The refresh rate of iron in normal mode is adjusted to 2 seconds/piece
+<br/>✔6. Optimized the logic of resource generation
+<br/>✔7. Adjusted the text displayed on the scoreboard
+<br/>✔8. The game rule of falling blocks will now be set to true repeatedly
+<br/>✔9. Optimized performance
+
 ### 20230112-20230114 BED WARS - Created By IXBOB v1.2.2.1-release Change log
 <br/>✔1. Fixed an issue where the Sharpness team upgrade could not be purchased in v1.2.2.
 <br/>✔2. The gametestAPI is enabled, and added some custom commands.(Developing)
