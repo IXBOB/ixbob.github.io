@@ -24,8 +24,6 @@ BEDWARS （MC BE 1.19.51）
 <br/><a href="https://mcpedl.com/bed-wars-created-by-ixbob/">View on MCPEDL for details</a>
 <br/><a href="http://ixbob.github.io/changelog/map1.html" target="_blank">Change log</a>
 <br/><a href="https://github.com/IXBOB/bedwarsBE" target="_blank">Track updates</a>
-<div style="position: relative;"><iframe src="https://publisher.linkvertise.com/cdn/ads/LV-728x90/index.html" frameborder="0" height="90" width="728"></iframe><a href="https://publisher.linkvertise.com/ac/485048" target="_blank" style="position: absolute; top: 0; bottom: 0; left: 0; right: 0;"></a></div>
-
 
 
 ### SHELVED MAPS
