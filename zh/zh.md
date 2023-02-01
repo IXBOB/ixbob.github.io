@@ -26,6 +26,7 @@ BEDWARS （MC BE 1.19.21+）
 <br/><a href="https://mcpedl.com/bed-wars-created-by-ixbob/">在mcpedl上查看</a>
 <br/><a href="http://ixbob.github.io/changelog/map1.html" target="_blank">更新日志</a>
 <br/><a href="https://github.com/IXBOB/bedwarsBE" target="_blank">跟踪更新</a>
+<br/><a href="https://github.com/IXBOB/bedwarsBE_CN" target="_blank">中文版下载（仅网易）</a>
 <br/>
  
 ### 搁置的地图
