@@ -24,7 +24,7 @@ BEDWARS （MC BE 1.19.51）
 <br/><a href="https://mcpedl.com/bed-wars-created-by-ixbob/">View on MCPEDL for details</a>
 <br/><a href="http://ixbob.github.io/changelog/map1.html" target="_blank">Change log</a>
 <br/><a href="https://github.com/IXBOB/bedwarsBE" target="_blank">Track updates</a>
-<br/><a href="https://github.com/IXBOB/bedwarsBE_CN" target="_blank">Chinese Edition Download</a>
+<br/><a href="https://github.com/IXBOB/bedwarsBE_CN" target="_blank">Chinese Edition Download（Minecraft China Only）（BE 1.18.30）</a>
 
 
 ### SHELVED MAPS
