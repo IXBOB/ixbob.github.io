@@ -21,7 +21,7 @@ IXBOB
 ### 基岩版地图
 𝐢 此处地图正在持续更新
 
-BEDWARS （MC BE 1.19.21+）
+BEDWARS （MC BE 1.19.51）
 <br/><a href="https://github.com/IXBOB/IXBOB.github.io/releases/tag/BED_WARS_v1.2.2-beta.1" target="_blank">从linkvertise下载</a>
 <br/><a href="https://mcpedl.com/bed-wars-created-by-ixbob/">在mcpedl上查看</a>
 <br/><a href="http://ixbob.github.io/changelog/map1.html" target="_blank">更新日志</a>
