@@ -9,6 +9,7 @@
 
 [<img src="./discord_button.png">](https://discord.gg/RascQTuaRn)
 [<img src="./patreon_button.png">](https://www.patreon.com/bedwars_created_by_IXBOB)
+[<img src="./afdian_button.png">](https://afdian.net/a/BedwarsBE?tab=home)
 
 # Change log
 
