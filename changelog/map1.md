@@ -13,6 +13,52 @@
 
 # Change log
 
+### 20230125-20230128 BED WARS - Created By IXBOB v1.3.0-beta.2 Change log
+<br/>ENGLISH(英语):
+<br/>✔1. Fixed the problem that the backpack menu of the players in the lobby might be invalid after starting the game
+<br/>✔2. Optimized the logic of void deletion block
+<br/>✔3. Optimized translation
+<br/>✔4. Optimized the command logic for deleting blocks in non-game areas
+<br/>✔5. Fixed the problem of getting wrong tips for gaining experience online in v1.2.2
+<br/>✔6. Greatly reduced the height of void kills
+<br/>✔7. Removed the automatic rescue platform
+<br/>✔8. Fixed the problem that the fall damage will not be turned off when the game is concluded
+<br/>✔9. Rewrote most of the shop-bought blocks and tools with resource packs
+<br/>✔10. Fixed the problem that the experience storage bottle cannot be used during the game
+<br/>✔11. Fixed the problem that the prompts for getting Bed War experience online through the game were wrong
+<br/>✔12. Optimized the text of some prompts
+<br/>✔13. Fixed the problem that the items purchased at the end of the game will be obtained at the beginning of the next round
+<br/>✔14. Removed all custom recipes
+<br/>✔15. Removed auto-rescue platform and added compact defense tower
+<br/>✔16. Rewrote spectator function
+<br/>✔17. Fixed the problem that the zombie pigmen in the previous round would not be deleted after the game started
+<br/>✔18. Now fireballs can also destroy wooden boards
+<br/>✔19. Rewritten the logic of TNT activation
+<br/>✔20. Now when the enemy player triggers the trap, the player who triggers the trap will no longer be prompted
+<br/>✔21. The top of the map will no longer prevent the player from continuing to move up, but will prevent the <br/>player from continuing to build blocks
+<br/>中文(CHINESE):
+<br/>✔1. 修复了开始游戏后大厅的玩家的背包菜单可能失效的问题
+<br/>✔2. 优化了虚空删除方块的逻辑
+<br/>✔3. 优化了翻译
+<br/>✔4. 优化了删除非游戏区方块的指令逻辑
+<br/>✔5. 修复了v1.2.2中通过在线获得经验的获取提示错误的问题
+<br/>✔6. 大幅降低了虚空击杀高度
+<br/>✔7. 删除了自动救援平台
+<br/>✔8. 修复了游戏结算时掉落伤害不会被关闭的问题
+<br/>✔9. 使用资源包重写了大部分商店购买的方块和工具
+<br/>✔10. 修复了游戏时无法使用经验存储瓶的问题
+<br/>✔11. 修复了游戏时通过在线获取起床战争经验的提示错误的问题
+<br/>✔12. 优化了部分提示的文字
+<br/>✔13. 修复了游戏结算时购买的物品会在下一局开始时获得的问题
+<br/>✔14. 删除了所有自定义配方
+<br/>✔15. 移除了自动救援平台并添加了紧凑型防御塔
+<br/>✔16. 重写了旁观功能
+<br/>✔17. 修复了游戏开始后上一局的僵尸猪人不会被删除的问题
+<br/>✔18. 现在火球也可以破坏木板了
+<br/>✔19. 重写了TNT激活的逻辑
+<br/>✔20. 现在敌方玩家触发陷阱后不会再给触发陷阱的玩家提示
+<br/>✔21. 地图顶部不会再阻止玩家继续向上移动，而会阻止玩家继续向上搭方块
+
 ### 20230119-20230124 BED WARS - Created By IXBOB v1.3.0-beta.1 Change log
 <br/>✔1. Fixed the problem that the initial backpack menu page of new players was incorrect
 <br/>✔2. Fixed some scoreboard display issues
