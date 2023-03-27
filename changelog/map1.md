@@ -13,6 +13,46 @@
 
 # Change log
 
+### 20230218-20230324 BED WARS - Created By IXBOB v1.3.0-beta.3 Change log
+<br/>ENGLISH(英语):
+<br/>✔1. Improved some text in the game
+<br/>✔2. Fixed the problem that the red particles are not displayed when trying to place a block in the area where the block is prohibited to be placed on the bridge egg
+<br/>✔3. Fixed the problem that the title faded out at the wrong time during the 20-second countdown
+<br/>✔4. When the administrator modifies the game map, the modified map name will be prompted
+<br/>✔5. Fixed the problem that blocks cannot be stacked after being re-destroyed after being placed and picked up
+<br/>✔6. Fixed the problem that sometimes tag=op players could not enter the administrator menu
+<br/>✔7. Fixed the problem that if the bed is being regenerated when it is destroyed, it will lead to elimination
+<br/>✔8. Fixed the problem that the sound when destroying a wooden board is the sound of stone
+<br/>✔9. Added more custom blocks to replace the original blocks (cannot be broken)
+<br/>✔10. Fixed the problem that when the player dies during the game and waits until the game is settled and respawns, he will return to the game area
+<br/>✔11. Fixed the issue where the last player who died before the game ended was reborn in adventure mode instead of spectator mode
+<br/>✔12. Reduced the generation time of the first iron ingot and gold ingot drop
+<br/>✔13. Fixed the problem that players would still die when falling into the void at the end of the game
+<br/>✔14. Fixed the problem that sometimes it would prompt "You are dead" when starting the game
+<br/>✔15. Extended the interval between giving online rewards by 20 seconds
+<br/>✔16. The method of copying team boxes in the map has been changed from /clone to /structure
+<br/>✔17. Fixed the problem that the respawning player could not see the actionbar title of the game information at a certain height
+<br/>✔18. Optimized performance
+<br/>中文(CHINESE):
+<br/>✔1. 改进了游戏内的一些文字
+<br/>✔2. 修复了搭桥蛋在地图上方禁止放置方块区域试图放置方块时红色粒子不显示的问题
+<br/>✔3. 修复了20秒倒计时时标题淡出时间错误的问题
+<br/>✔4. 管理员修改游戏地图时会提示修改后的地图名称
+<br/>✔5. 修复了方块放置后重新破坏并拾取后无法堆叠
+<br/>✔6. 修复了有时tag=op玩家无法进入管理员菜单的问题
+<br/>✔7. 修复了床被破坏时若正在重生会导致淘汰的问题
+<br/>✔8. 修复了破坏木板时的声音是石头声音的问题
+<br/>✔9. 添加了更多用于替换原版方块的自定义方块（无法破坏）
+<br/>✔10. 修复了游戏进行时死亡，等待到游戏结算完毕后重生，会回到游戏区域的问题
+<br/>✔11. 修复了游戏结算前最后一名死亡的玩家重生后为冒险模式而不是旁观模式的问题
+<br/>✔12. 减少了首个铁锭，金锭掉落物的生成时间
+<br/>✔13. 修复了游戏结算时掉入虚空仍会死亡的问题
+<br/>✔14. 修复了有时刚开始游戏时会提示“你死了”的问题
+<br/>✔15. 将给予在线奖励的间隔延长了20秒
+<br/>✔16. 复制地图内队伍箱子的方式由/clone更改为了/structure
+<br/>✔17. 修复了正在重生的玩家在一定高度处无法看见游戏信息的actionbar标题的问题
+<br/>✔18. 优化了性能
+
 ### 20230125-20230128 BED WARS - Created By IXBOB v1.3.0-beta.2 Change log
 <br/>ENGLISH(英语):
 <br/>✔1. Fixed the problem that the backpack menu of the players in the lobby might be invalid after starting the game
