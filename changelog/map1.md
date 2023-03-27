@@ -12,7 +12,7 @@
 [<img src="./afdian_button.png">](https://afdian.net/a/BedwarsBE?tab=home)
 
 # Change log
-
+ 
 ### 20230218-20230324 BED WARS - Created By IXBOB v1.3.0-beta.3 Change log
 <br/>ENGLISH(英语):
 <br/>✔1. Improved some text in the game
