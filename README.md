@@ -13,7 +13,7 @@ IXBOB
 [<img src="./discord_button.png">](https://discord.gg/RascQTuaRn)
 [<img src="./patreon_button.png">](https://www.patreon.com/bedwars_created_by_IXBOB)
 [<img src="./afdian_button.png">](https://afdian.net/a/BedwarsBE?tab=home)
-<br/><a href="https://github.com/donators" target="_blank">Donator list</a>
+<br/><a href="https://ixbob.github.io/donators" target="_blank">Donator list</a>
 
 # BEDROCK VERSION MAP DOWNLOAD
 
