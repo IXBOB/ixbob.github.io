@@ -26,4 +26,4 @@ BEDWARS （MC BE 1.20.1）
 [<img src="./discord_button.png">](https://discord.gg/RascQTuaRn)
 [<img src="./patreon_button.png">](https://www.patreon.com/bedwars_created_by_IXBOB)
 [<img src="./afdian_button.png">](https://afdian.net/a/BedwarsBE?tab=home)
-<br/><a href="https://ixbob.github.io/donators" target="_blank">捐赠支持者列表</a>
+<br/><a href="https://afdian.net/a/BedwarsBE?tab=home" target="_blank">捐赠支持者列表</a>
